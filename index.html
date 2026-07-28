@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>ThS. Khương Ngọc Quỳnh | Chuyên gia đào tạo đầu tư hàng hóa</title>
+  <meta
+    name="description"
+    content="Hồ sơ chuyên môn của ThS. Khương Ngọc Quỳnh — chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro trong đầu tư hàng hóa phái sinh."
+  />
+
+  <!--
+    HƯỚNG DẪN NHANH
+    1. Thay ảnh trong thư mục /images theo đúng tên file.
+    2. Thay link Facebook, website, Zalo và link đăng ký.
+    3. Chỉ công bố các số liệu, danh hiệu và kết quả học viên đã được xác minh.
+    4. Có thể sao chép riêng khối <main class="kq-bio">...</main>
+       cùng toàn bộ CSS để nhúng vào website hiện có.
+  -->
+
+  <style>
+    :root {
+      --kq-navy-950: #07111f;
+      --kq-navy-900: #0b172a;
+      --kq-navy-800: #10213b;
+      --kq-gold-500: #b8944f;
+      --kq-gold-300: #d7bf87;
+      --kq-ivory: #f4f1e8;
+      --kq-white: #ffffff;
+      --kq-text: #dce3ec;
+      --kq-muted: #9ea9b8;
+      --kq-line: rgba(255, 255, 255, 0.12);
+      --kq-success: #75c9a7;
+      --kq-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+      --kq-radius-xl: 28px;
+      --kq-radius-lg: 20px;
+      --kq-radius-md: 14px;
+      --kq-container: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--kq-navy-950);
+      color: var(--kq-text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    .kq-bio {
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 80% 5%, rgba(184, 148, 79, 0.16), transparent 28%),
+        radial-gradient(circle at 5% 30%, rgba(62, 104, 156, 0.18), transparent 30%),
+        var(--kq-navy-950);
+    }
+
+    .kq-container {
+      width: min(calc(100% - 40px), var(--kq-container));
+      margin-inline: auto;
+    }
+
+    .kq-section {
+      padding: 96px 0;
+    }
+
+    .kq-section--soft {
+      background: rgba(255, 255, 255, 0.025);
+      border-block: 1px solid var(--kq-line);
+    }
+
+    .kq-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      color: var(--kq-gold-300);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .kq-eyebrow::before {
+      width: 28px;
+      height: 1px;
+      background: var(--kq-gold-500);
+      content: "";
+    }
+
+    .kq-heading {
+      max-width: 820px;
+      margin: 0;
+      color: var(--kq-white);
+      font-size: clamp(2rem, 4vw, 4rem);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+    }
+
+    .kq-heading span {
+      color: var(--kq-gold-300);
+    }
+
+    .kq-lead {
+      max-width: 780px;
+      margin: 24px 0 0;
+      color: var(--kq-muted);
+      font-size: clamp(1rem, 1.5vw, 1.18rem);
+    }
+
+    .kq-btn {
+      display: inline-flex;
+      min-height: 52px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 22px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      font-weight: 800;
+      transition:
+        transform 180ms ease,
+        border-color 180ms ease,
+        background 180ms ease;
+    }
+
+    .kq-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .kq-btn--primary {
+      background: linear-gradient(135deg, var(--kq-gold-300), var(--kq-gold-500));
+      color: var(--kq-navy-950);
+      box-shadow: 0 12px 34px rgba(184, 148, 79, 0.22);
+    }
+
+    .kq-btn--ghost {
+      border-color: var(--kq-line);
+      background: rgba(255, 255, 255, 0.035);
+      color: var(--kq-white);
+    }
+
+    .kq-hero {
+      position: relative;
+      min-height: 820px;
+      display: flex;
+      align-items: center;
+      padding: 80px 0;
+      isolation: isolate;
+    }
+
+    .kq-hero::after {
+      position: absolute;
+      inset: auto -10% -40% 40%;
+      z-index: -1;
+      width: 700px;
+      height: 700px;
+      border: 1px solid rgba(184, 148, 79, 0.12);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .kq-hero__grid {
+      display: grid;
+      align-items: center;
+      gap: 56px;
+      grid-template-columns: 1.08fr 0.92fr;
+    }
+
+    .kq-hero__title {
+      margin: 0;
+      color: var(--kq-white);
+      font-size: clamp(3rem, 7vw, 6.8rem);
+      line-height: 0.94;
+      letter-spacing: -0.065em;
+    }
+
+    .kq-hero__title small {
+      display: block;
+      margin-bottom: 18px;
+      color: var(--kq-gold-300);
+      font-size: 0.16em;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .kq-hero__subtitle {
+      max-width: 680px;
+      margin: 28px 0 0;
+      color: var(--kq-text);
+      font-size: clamp(1.05rem, 2vw, 1.35rem);
+    }
+
+    .kq-hero__quote {
+      max-width: 640px;
+      margin: 28px 0 0;
+      padding-left: 20px;
+      border-left: 2px solid var(--kq-gold-500);
+      color: var(--kq-muted);
+      font-style: italic;
+    }
+
+    .kq-hero__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .kq-hero__media {
+      position: relative;
+    }
+
+    .kq-hero__portrait {
+      min-height: 590px;
+      overflow: hidden;
+      border: 1px solid var(--kq-line);
+      border-radius: 36px;
+      background:
+        linear-gradient(180deg, rgba(7, 17, 31, 0.02), rgba(7, 17, 31, 0.68)),
+        url("anh code/KNQ2.jpg") center 20% / cover no-repeat,
+        #17243a;
+      box-shadow: var(--kq-shadow);
+    }
+
+    .kq-hero__badge {
+      position: absolute;
+      right: -20px;
+      bottom: 30px;
+      max-width: 260px;
+      padding: 20px;
+      border: 1px solid rgba(215, 191, 135, 0.28);
+      border-radius: var(--kq-radius-lg);
+      background: rgba(7, 17, 31, 0.88);
+      box-shadow: var(--kq-shadow);
+      backdrop-filter: blur(16px);
+    }
+
+    .kq-hero__badge strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--kq-gold-300);
+      font-size: 1.1rem;
+    }
+
+    .kq-hero__badge span {
+      color: var(--kq-muted);
+      font-size: 0.92rem;
+    }
+
+    .kq-metrics {
+      display: grid;
+      gap: 18px;
+      margin-top: 46px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .kq-metric {
+      padding: 20px 0;
+      border-top: 1px solid var(--kq-line);
+    }
+
+    .kq-metric strong {
+      display: block;
+      color: var(--kq-white);
+      font-size: clamp(1.45rem, 3vw, 2.15rem);
+      line-height: 1;
+    }
+
+    .kq-metric span {
+      display: block;
+      margin-top: 8px;
+      color: var(--kq-muted);
+      font-size: 0.88rem;
+    }
+
+    .kq-grid-3 {
+      display: grid;
+      gap: 22px;
+      margin-top: 42px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .kq-card {
+      height: 100%;
+      padding: 30px;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-lg);
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.018));
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.12);
+    }
+
+    .kq-card__number {
+      display: inline-grid;
+      width: 44px;
+      height: 44px;
+      place-items: center;
+      margin-bottom: 22px;
+      border: 1px solid rgba(215, 191, 135, 0.24);
+      border-radius: 50%;
+      color: var(--kq-gold-300);
+      font-weight: 900;
+    }
+
+    .kq-card h3 {
+      margin: 0;
+      color: var(--kq-white);
+      font-size: 1.25rem;
+    }
+
+    .kq-card p {
+      margin: 14px 0 0;
+      color: var(--kq-muted);
+    }
+
+    .kq-profile {
+      display: grid;
+      align-items: start;
+      gap: 54px;
+      grid-template-columns: 0.82fr 1.18fr;
+    }
+
+    .kq-profile__photo {
+      position: sticky;
+      top: 24px;
+      min-height: 620px;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-xl);
+      background:
+        linear-gradient(180deg, transparent 55%, rgba(7, 17, 31, 0.9)),
+        url("images/thay-quynh-profile.jpg") center / cover no-repeat,
+        #15243a;
+      box-shadow: var(--kq-shadow);
+    }
+
+    .kq-profile__caption {
+      position: absolute;
+      right: 24px;
+      bottom: 24px;
+      left: 24px;
+      padding: 18px;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-md);
+      background: rgba(7, 17, 31, 0.78);
+      backdrop-filter: blur(12px);
+    }
+
+    .kq-profile__caption strong {
+      display: block;
+      color: var(--kq-white);
+    }
+
+    .kq-profile__caption span {
+      color: var(--kq-muted);
+      font-size: 0.9rem;
+    }
+
+    .kq-list {
+      display: grid;
+      gap: 14px;
+      margin: 32px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .kq-list li {
+      position: relative;
+      padding: 17px 18px 17px 48px;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-md);
+      background: rgba(255, 255, 255, 0.028);
+      color: var(--kq-text);
+    }
+
+    .kq-list li::before {
+      position: absolute;
+      top: 17px;
+      left: 18px;
+      color: var(--kq-gold-300);
+      content: "◆";
+      font-size: 0.72rem;
+    }
+
+    .kq-timeline {
+      position: relative;
+      display: grid;
+      gap: 28px;
+      margin-top: 48px;
+    }
+
+    .kq-timeline::before {
+      position: absolute;
+      top: 8px;
+      bottom: 8px;
+      left: 119px;
+      width: 1px;
+      background: linear-gradient(var(--kq-gold-500), transparent);
+      content: "";
+    }
+
+    .kq-timeline__item {
+      display: grid;
+      gap: 28px;
+      grid-template-columns: 92px 1fr;
+    }
+
+    .kq-timeline__year {
+      color: var(--kq-gold-300);
+      font-weight: 900;
+    }
+
+    .kq-timeline__content {
+      position: relative;
+      padding: 0 0 30px 44px;
+      border-bottom: 1px solid var(--kq-line);
+    }
+
+    .kq-timeline__content::before {
+      position: absolute;
+      top: 5px;
+      left: 22px;
+      width: 10px;
+      height: 10px;
+      border: 3px solid var(--kq-navy-950);
+      border-radius: 50%;
+      background: var(--kq-gold-500);
+      box-shadow: 0 0 0 1px var(--kq-gold-500);
+      content: "";
+      transform: translateX(-50%);
+    }
+
+    .kq-timeline__content h3 {
+      margin: 0;
+      color: var(--kq-white);
+      font-size: 1.25rem;
+    }
+
+    .kq-timeline__content p {
+      margin: 10px 0 0;
+      color: var(--kq-muted);
+    }
+
+    .kq-events {
+      display: grid;
+      gap: 22px;
+      margin-top: 44px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .kq-event {
+      min-height: 360px;
+      display: flex;
+      align-items: end;
+      overflow: hidden;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-lg);
+      background:
+        linear-gradient(180deg, transparent 30%, rgba(7, 17, 31, 0.96)),
+        var(--event-image, linear-gradient(135deg, #142740, #0b172a));
+      background-position: center;
+      background-size: cover;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+    }
+
+    .kq-event__body {
+      width: 100%;
+      padding: 28px;
+    }
+
+    .kq-event__meta {
+      color: var(--kq-gold-300);
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .kq-event h3 {
+      margin: 10px 0 0;
+      color: var(--kq-white);
+      font-size: 1.35rem;
+      line-height: 1.35;
+    }
+
+    .kq-method {
+      display: grid;
+      gap: 18px;
+      margin-top: 44px;
+      counter-reset: method;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .kq-method__item {
+      position: relative;
+      min-height: 280px;
+      padding: 26px;
+      overflow: hidden;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-lg);
+      background: rgba(255, 255, 255, 0.03);
+      counter-increment: method;
+    }
+
+    .kq-method__item::after {
+      position: absolute;
+      right: 12px;
+      bottom: -28px;
+      color: rgba(255, 255, 255, 0.035);
+      content: "0" counter(method);
+      font-size: 7rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .kq-method__item span {
+      color: var(--kq-gold-300);
+      font-weight: 900;
+    }
+
+    .kq-method__item h3 {
+      margin: 18px 0 0;
+      color: var(--kq-white);
+    }
+
+    .kq-method__item p {
+      margin: 12px 0 0;
+      color: var(--kq-muted);
+    }
+
+    .kq-audience {
+      display: grid;
+      gap: 22px;
+      margin-top: 42px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .kq-audience__panel {
+      padding: 30px;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-lg);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .kq-audience__panel h3 {
+      margin: 0;
+      color: var(--kq-white);
+    }
+
+    .kq-audience__panel--warning {
+      background: rgba(184, 148, 79, 0.055);
+    }
+
+    .kq-checklist {
+      display: grid;
+      gap: 12px;
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .kq-checklist li {
+      position: relative;
+      padding-left: 30px;
+      color: var(--kq-muted);
+    }
+
+    .kq-checklist li::before {
+      position: absolute;
+      left: 0;
+      color: var(--kq-success);
+      content: "✓";
+      font-weight: 900;
+    }
+
+    .kq-audience__panel--warning .kq-checklist li::before {
+      color: var(--kq-gold-300);
+      content: "×";
+    }
+
+    .kq-testimonials {
+      display: grid;
+      gap: 22px;
+      margin-top: 44px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .kq-testimonial {
+      position: relative;
+      display: flex;
+      min-height: 320px;
+      flex-direction: column;
+      padding: 30px;
+      border: 1px solid var(--kq-line);
+      border-radius: var(--kq-radius-lg);
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+    }
+
+    .kq-testimonial::before {
+      color: var(--kq-gold-300);
+      content: "“";
+      font-family: Georgia, serif;
+      font-size: 4.5rem;
+      line-height: 0.8;
+    }
+
+    .kq-testimonial blockquote {
+      flex: 1;
+      margin: 16px 0 24px;
+      color: var(--kq-text);
+      font-size: 1.02rem;
+    }
+
+    .kq-testimonial__author {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .kq-testimonial__avatar {
+      width: 48px;
+      height: 48px;
+      flex: 0 0 48px;
+      overflow: hidden;
+      border: 1px solid var(--kq-line);
+      border-radius: 50%;
+      background: #1b2b42;
+      object-fit: cover;
+    }
+
+    .kq-testimonial__author strong {
+      display: block;
+      color: var(--kq-white);
+    }
+
+    .kq-testimonial__author span {
+      display: block;
+      color: var(--kq-muted);
+      font-size: 0.85rem;
+    }
+
+    .kq-proof-note {
+      margin-top: 24px;
+      padding: 18px 20px;
+      border-left: 3px solid var(--kq-gold-500);
+      background: rgba(184, 148, 79, 0.055);
+      color: var(--kq-muted);
+      font-size: 0.9rem;
+    }
+
+    .kq-cta {
+      padding: 86px 0;
+    }
+
+    .kq-cta__box {
+      position: relative;
+      display: grid;
+      align-items: center;
+      gap: 44px;
+      overflow: hidden;
+      padding: clamp(32px, 6vw, 70px);
+      border: 1px solid rgba(215, 191, 135, 0.25);
+      border-radius: var(--kq-radius-xl);
+      background:
+        radial-gradient(circle at 100% 0%, rgba(215, 191, 135, 0.16), transparent 34%),
+        linear-gradient(135deg, #10213b, #0b172a);
+      box-shadow: var(--kq-shadow);
+      grid-template-columns: 1fr auto;
+    }
+
+    .kq-cta__box h2 {
+      max-width: 760px;
+      margin: 0;
+      color: var(--kq-white);
+      font-size: clamp(2rem, 4vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .kq-cta__box p {
+      max-width: 720px;
+      margin: 20px 0 0;
+      color: var(--kq-muted);
+    }
+
+    .kq-qr {
+      width: 188px;
+      height: 188px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border: 10px solid var(--kq-white);
+      border-radius: 18px;
+      background: var(--kq-white);
+      color: var(--kq-navy-950);
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+
+    .kq-qr img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .kq-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 22px;
+      margin-top: 24px;
+      color: var(--kq-text);
+      font-size: 0.95rem;
+    }
+
+    .kq-disclaimer {
+      padding: 24px 0 36px;
+      border-top: 1px solid var(--kq-line);
+      color: #7f8a99;
+      font-size: 0.82rem;
+      text-align: center;
+    }
+
+    .kq-reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition:
+        opacity 600ms ease,
+        transform 600ms ease;
+    }
+
+    .kq-reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .kq-reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+
+      .kq-btn {
+        transition: none;
+      }
+    }
+
+    @media (max-width: 980px) {
+      .kq-hero {
+        min-height: auto;
+      }
+
+      .kq-hero__grid,
+      .kq-profile,
+      .kq-cta__box {
+        grid-template-columns: 1fr;
+      }
+
+      .kq-hero__media {
+        max-width: 680px;
+      }
+
+      .kq-hero__badge {
+        right: 18px;
+      }
+
+      .kq-profile__photo {
+        position: relative;
+        top: 0;
+        min-height: 580px;
+      }
+
+      .kq-grid-3,
+      .kq-testimonials {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .kq-method {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .kq-qr {
+        width: 160px;
+        height: 160px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .kq-container {
+        width: min(calc(100% - 28px), var(--kq-container));
+      }
+
+      .kq-section {
+        padding: 70px 0;
+      }
+
+      .kq-hero {
+        padding: 58px 0 72px;
+      }
+
+      .kq-hero__grid {
+        gap: 36px;
+      }
+
+      .kq-hero__title {
+        font-size: clamp(2.7rem, 16vw, 4.3rem);
+      }
+
+      .kq-hero__portrait {
+        min-height: 480px;
+      }
+
+      .kq-hero__badge {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        max-width: none;
+        margin-top: 14px;
+      }
+
+      .kq-metrics,
+      .kq-grid-3,
+      .kq-events,
+      .kq-method,
+      .kq-audience,
+      .kq-testimonials {
+        grid-template-columns: 1fr;
+      }
+
+      .kq-metrics {
+        gap: 4px;
+      }
+
+      .kq-profile__photo {
+        min-height: 480px;
+      }
+
+      .kq-timeline::before {
+        left: 0;
+      }
+
+      .kq-timeline__item {
+        gap: 12px;
+        grid-template-columns: 1fr;
+      }
+
+      .kq-timeline__content {
+        padding-left: 28px;
+      }
+
+      .kq-timeline__content::before {
+        left: 0;
+      }
+
+      .kq-event {
+        min-height: 320px;
+      }
+
+      .kq-cta__box {
+        padding: 34px 24px;
+      }
+
+      .kq-qr {
+        width: 148px;
+        height: 148px;
+      }
+    }
+
+    /* FORM ĐĂNG KÝ CUỐI TRANG */
+    .kq-register { padding: 96px 0; }
+    .kq-register__box {
+      display: grid; gap: 44px; padding: clamp(30px, 5vw, 66px);
+      border: 1px solid rgba(215, 191, 135, 0.25); border-radius: var(--kq-radius-xl);
+      background: radial-gradient(circle at 100% 0%, rgba(215,191,135,.16), transparent 34%), linear-gradient(135deg,#10213b,#0b172a);
+      box-shadow: var(--kq-shadow); grid-template-columns: .9fr 1.1fr;
+    }
+    .kq-register__content { align-self: center; }
+    .kq-register__content h2 { margin:0; color:var(--kq-white); font-size:clamp(2rem,4vw,3.8rem); line-height:1.08; letter-spacing:-.04em; }
+    .kq-register__content p { margin:20px 0 0; color:var(--kq-muted); }
+    .kq-register__benefits { display:grid; gap:12px; margin:28px 0 0; padding:0; list-style:none; }
+    .kq-register__benefits li { position:relative; padding-left:30px; color:var(--kq-text); }
+    .kq-register__benefits li::before { position:absolute; left:0; color:var(--kq-success); content:'✓'; font-weight:900; }
+    .kq-register__contact { display:grid; gap:8px; margin-top:28px; padding-top:22px; border-top:1px solid var(--kq-line); color:var(--kq-muted); font-size:.9rem; }
+    .kq-lead-form { padding:26px; border:1px solid var(--kq-line); border-radius:var(--kq-radius-lg); background:rgba(7,17,31,.72); backdrop-filter:blur(14px); }
+    .kq-lead-form__heading { margin-bottom:22px; }
+    .kq-lead-form__heading h3 { margin:0; color:var(--kq-white); font-size:1.5rem; }
+    .kq-lead-form__heading p { margin:8px 0 0; color:var(--kq-muted); font-size:.9rem; }
+    .kq-form-grid { display:grid; gap:16px; grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .kq-form-field { display:grid; gap:7px; }
+    .kq-form-field--full { grid-column:1/-1; }
+    .kq-form-field label { color:var(--kq-text); font-size:.86rem; font-weight:800; }
+    .kq-form-field input,.kq-form-field select,.kq-form-field textarea { width:100%; border:1px solid var(--kq-line); border-radius:12px; outline:none; background:rgba(255,255,255,.045); color:var(--kq-white); transition:border-color 180ms ease,box-shadow 180ms ease,background 180ms ease; }
+    .kq-form-field input,.kq-form-field select { min-height:52px; padding:0 14px; }
+    .kq-form-field textarea { min-height:112px; padding:13px 14px; resize:vertical; }
+    .kq-form-field input::placeholder,.kq-form-field textarea::placeholder { color:#778291; }
+    .kq-form-field input:focus,.kq-form-field select:focus,.kq-form-field textarea:focus { border-color:var(--kq-gold-500); background:rgba(255,255,255,.06); box-shadow:0 0 0 3px rgba(184,148,79,.12); }
+    .kq-form-field select option { color:#111; }
+    .kq-form-submit { width:100%; margin-top:18px; border:0; cursor:pointer; }
+    .kq-form-privacy { margin:12px 0 0; color:#7f8a99; font-size:.77rem; text-align:center; }
+    .kq-form-message { display:none; margin-top:14px; padding:13px 14px; border:1px solid rgba(117,201,167,.32); border-radius:12px; background:rgba(117,201,167,.08); color:#bcebd8; font-size:.88rem; }
+    @media (max-width:980px){ .kq-register__box{grid-template-columns:1fr;} }
+    @media (max-width:720px){
+      .kq-register{padding:70px 0;} .kq-register__box{gap:28px;padding:28px 18px;border-radius:22px;}
+      .kq-register__content{text-align:center;} .kq-register__content .kq-eyebrow{justify-content:center;}
+      .kq-register__benefits{text-align:left;} .kq-lead-form{padding:18px;border-radius:16px;}
+      .kq-form-grid{grid-template-columns:1fr;} .kq-form-field--full{grid-column:auto;}
+      .kq-form-field input,.kq-form-field select{min-height:54px;font-size:16px;}
+    }
+
+  </style>
+</head>
+
+<body>
+  <main class="kq-bio">
+    <!-- HERO -->
+    <section class="kq-hero" aria-labelledby="kq-hero-title">
+      <div class="kq-container kq-hero__grid">
+        <div class="kq-reveal">
+          <div class="kq-eyebrow">Hồ sơ chuyên gia</div>
+
+          <h1 class="kq-hero__title" id="kq-hero-title">
+            <small>Thạc sĩ</small>
+            Khương<br />Ngọc Quỳnh
+          </h1>
+
+          <p class="kq-hero__subtitle">
+            Chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro
+            trong đầu tư hàng hóa phái sinh.
+          </p>
+
+          <p class="kq-hero__quote">
+            “Mục tiêu của đào tạo không phải là khiến học viên phụ thuộc vào
+            chuyên gia, mà là giúp họ đủ năng lực tự ra quyết định.”
+          </p>
+
+          <div class="kq-hero__actions">
+            <a class="kq-btn kq-btn--primary" href="#kq-dang-ky">
+              Đăng ký học trải nghiệm
+            </a>
+
+            <a class="kq-btn kq-btn--ghost" href="#kq-ho-so">
+              Xem hồ sơ chuyên môn
+            </a>
+          </div>
+
+          <div class="kq-metrics" aria-label="Các dấu ấn chuyên môn">
+            <div class="kq-metric">
+              <strong>15+</strong>
+              <span>Năm kinh nghiệm</span>
+            </div>
+
+            <div class="kq-metric">
+              <strong>800+</strong>
+              <span>Doanh nghiệp từng tiếp cận</span>
+            </div>
+
+            <div class="kq-metric">
+              <strong>2015–nay</strong>
+              <span>Đào tạo và cố vấn</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kq-hero__media kq-reveal">
+          <div
+            class="kq-hero__portrait"
+            role="img"
+            aria-label="C:\Users\leh14\Desktop\web thầy Quynh\KNQ01.jpg"
+          ></div>
+
+          <div class="kq-hero__badge">
+            <strong>Giám đốc Đào tạo</strong>
+            <span>
+              Công ty CP Giao dịch Hàng hóa Gia Cát Lợi
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRIẾT LÝ -->
+    <section class="kq-section kq-section--soft">
+      <div class="kq-container">
+        <div class="kq-eyebrow kq-reveal">Triết lý đào tạo</div>
+
+        <h2 class="kq-heading kq-reveal">
+          Không đào tạo học viên đi tìm một
+          <span>“lệnh thắng”.</span>
+        </h2>
+
+        <p class="kq-lead kq-reveal">
+          Chương trình tập trung xây dựng một hệ thống tư duy, trong đó mỗi
+          quyết định đều dựa trên phân tích, quản trị rủi ro và kỷ luật giao dịch.
+          Thị trường không thưởng cho người phán đoán đúng một lần; thị trường
+          giữ lại những người có khả năng tồn tại đủ lâu để khai thác cơ hội.
+        </p>
+
+        <div class="kq-grid-3">
+          <article class="kq-card kq-reveal">
+            <div class="kq-card__number">01</div>
+            <h3>Bảo toàn vốn</h3>
+            <p>
+              Xác định giới hạn rủi ro trước khi nghĩ đến lợi nhuận và không
+              sử dụng quy mô vị thế vượt quá khả năng chịu đựng.
+            </p>
+          </article>
+
+          <article class="kq-card kq-reveal">
+            <div class="kq-card__number">02</div>
+            <h3>Kiểm soát cảm xúc</h3>
+            <p>
+              Tách quyết định giao dịch khỏi hưng phấn, sợ hãi và áp lực phải
+              đúng trong mọi thời điểm.
+            </p>
+          </article>
+
+          <article class="kq-card kq-reveal">
+            <div class="kq-card__number">03</div>
+            <h3>Tuân thủ hệ thống</h3>
+            <p>
+              Biến kiến thức thành quy trình có thể ghi chép, đánh giá,
+              lặp lại và cải tiến theo thời gian.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HỒ SƠ -->
+    <section class="kq-section" id="kq-ho-so">
+      <div class="kq-container kq-profile">
+        <div style="background-image: url('anh code/KNQ1.jpg');" class="kq-profile__photo kq-reveal"> 
+          <div class="kq-profile__caption">
+            <strong>ThS. Khương Ngọc Quỳnh</strong>
+            <span>Phân tích đầu tư · Quản trị rủi ro · Đào tạo thực chiến</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="kq-eyebrow kq-reveal">Nền tảng chuyên môn</div>
+
+          <h2 class="kq-heading kq-reveal">
+            Kiến thức phải được chuyển hóa thành
+            <span>năng lực hành động.</span>
+          </h2>
+
+          <p class="kq-lead kq-reveal">
+            Hồ sơ chuyên môn tập trung vào ba trục: phân tích thị trường,
+            quản trị rủi ro và xây dựng năng lực tự ra quyết định cho nhà đầu tư.
+          </p>
+
+          <ul class="kq-list">
+            <li class="kq-reveal">
+              Tốt nghiệp chương trình Thạc sĩ Kinh tế, chuyên ngành
+              Phân tích đầu tư quốc tế và Quản trị rủi ro.
+            </li>
+            <li class="kq-reveal">
+              Kinh nghiệm trong phân tích thị trường tài chính, hàng hóa,
+              quản lý vốn và xây dựng chiến lược đa thị trường.
+            </li>
+            <li class="kq-reveal">
+              Từng đảm nhiệm các vị trí quản lý trong lĩnh vực đầu tư
+              và quản trị rủi ro.
+            </li>
+            <li class="kq-reveal">
+              Đào tạo, cố vấn nhà đầu tư cá nhân và doanh nghiệp có nhu cầu
+              tiếp cận công cụ quản trị biến động giá.
+            </li>
+            <li class="kq-reveal">
+              Thường xuyên tham gia hội thảo, diễn đàn kinh tế và chương trình
+              chuyên đề về hàng hóa, đầu tư và quản trị rủi ro.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HÀNH TRÌNH -->
+    <section class="kq-section kq-section--soft">
+      <div class="kq-container">
+        <div class="kq-eyebrow kq-reveal">Hành trình nghề nghiệp</div>
+
+        <h2 class="kq-heading kq-reveal">
+          Kinh nghiệm được tích lũy qua
+          <span>nhiều chu kỳ thị trường.</span>
+        </h2>
+
+        <div class="kq-timeline">
+          <article class="kq-timeline__item kq-reveal">
+            <div class="kq-timeline__year">2010–2020</div>
+            <div class="kq-timeline__content">
+              <h3>Phân tích đầu tư và quản lý vốn</h3>
+              <p>
+                Tham gia xây dựng chiến lược đầu tư đa thị trường,
+                quản trị danh mục và kiểm soát rủi ro.
+              </p>
+            </div>
+          </article>
+
+          <article class="kq-timeline__item kq-reveal">
+            <div class="kq-timeline__year">2015–nay</div>
+            <div class="kq-timeline__content">
+              <h3>Đào tạo và cố vấn chuyên sâu</h3>
+              <p>
+                Đồng hành cùng nhà đầu tư và doanh nghiệp trong việc chuẩn hóa
+                tư duy, phương pháp phân tích và quy trình quản trị vốn.
+              </p>
+            </div>
+          </article>
+
+          <article class="kq-timeline__item kq-reveal">
+            <div class="kq-timeline__year">2017–nay</div>
+            <div class="kq-timeline__content">
+              <h3>Diễn giả tại các hội nghị và diễn đàn kinh tế</h3>
+              <p>
+                Chia sẻ về kinh tế vĩ mô, chu kỳ hàng hóa, quản trị rủi ro giá
+                và tư duy đầu tư bền vững.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SỰ KIỆN -->
+    <section class="kq-section">
+      <div class="kq-container">
+        <div class="kq-eyebrow kq-reveal">Dấu ấn diễn giả</div>
+
+        <h2 class="kq-heading kq-reveal">
+          Những chương trình và
+          <span>diễn đàn tiêu biểu.</span>
+        </h2>
+
+        <p class="kq-lead kq-reveal">
+          Nên thay các ảnh minh họa dưới đây bằng ảnh gốc có chú thích rõ
+          ngày, địa điểm, đơn vị tổ chức và vai trò tham gia.
+        </p>
+
+        <div class="kq-events">
+          <article
+            class="kq-event kq-reveal"
+            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ3.jpg');"
+          >
+            <div class="kq-event__body">
+              <div class="kq-event__meta">TP. Hồ Chí Minh · 20/09/2025</div>
+              <h3>Diễn đàn Kinh tế VCEP 2025</h3>
+            </div>
+          </article>
+
+          <article
+            class="kq-event kq-reveal"
+            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ4.jpg');"
+          >
+            <div class="kq-event__body">
+              <div class="kq-event__meta">Pleiku · 27/09/2025</div>
+              <h3>Giải pháp quản trị rủi ro giá cà phê</h3>
+            </div>
+          </article>
+
+          <article
+            class="kq-event kq-reveal"
+            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ5.jpg');"
+          >
+            <div class="kq-event__body">
+              <div class="kq-event__meta">TP. Hồ Chí Minh · 12/03/2026</div>
+              <h3>Hội thảo ACM 2026</h3>
+            </div>
+          </article>
+
+          <article
+            class="kq-event kq-reveal"
+            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ6.jpg');"
+          >
+            <div class="kq-event__body">
+              <div class="kq-event__meta">TP. Hồ Chí Minh · 18/09/2025</div>
+              <h3>
+                Hội thảo "Tư duy khởi nghiệp" chào tân sinh viên Đại học Gia Định 
+              </h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHƯƠNG PHÁP -->
+    <section class="kq-section kq-section--soft">
+      <div class="kq-container">
+        <div class="kq-eyebrow kq-reveal">Hệ thống đào tạo</div>
+
+        <h2 class="kq-heading kq-reveal">
+          Bốn tầng năng lực của một
+          <span>nhà đầu tư có hệ thống.</span>
+        </h2>
+
+        <div class="kq-method">
+          <article class="kq-method__item kq-reveal">
+            <span>Tầng 1</span>
+            <h3>Tư duy thị trường</h3>
+            <p>
+              Hiểu bản chất xác suất, chu kỳ, cung – cầu,
+              dòng tiền và giới hạn của dự báo.
+            </p>
+          </article>
+
+          <article class="kq-method__item kq-reveal">
+            <span>Tầng 2</span>
+            <h3>Phương pháp phân tích</h3>
+            <p>
+              Kết hợp phân tích cơ bản, kỹ thuật và bối cảnh kinh tế
+              thay vì phụ thuộc vào một tín hiệu đơn lẻ.
+            </p>
+          </article>
+
+          <article class="kq-method__item kq-reveal">
+            <span>Tầng 3</span>
+            <h3>Quản trị giao dịch</h3>
+            <p>
+              Xác định điểm vào, điểm thoát, quy mô vị thế
+              và mức thua lỗ tối đa trước khi giao dịch.
+            </p>
+          </article>
+
+          <article class="kq-method__item kq-reveal">
+            <span>Tầng 4</span>
+            <h3>Kỷ luật thực chiến</h3>
+            <p>
+              Ghi nhật ký, đánh giá sai lầm, đo lường hiệu suất
+              và cải tiến quy trình ra quyết định.
+            </p>
+          </article>
+        </div>
+
+        <div class="kq-proof-note kq-reveal">
+          <strong>Định vị đào tạo:</strong>
+          Không bán tín hiệu. Không nuôi sự phụ thuộc.
+          Không hứa hẹn lợi nhuận dễ dàng.
+        </div>
+      </div>
+    </section>
+
+    <!-- ĐỐI TƯỢNG -->
+    <section class="kq-section">
+      <div class="kq-container">
+        <div class="kq-eyebrow kq-reveal">Đối tượng phù hợp</div>
+
+        <h2 class="kq-heading kq-reveal">
+          Chương trình không dành cho
+          <span>tất cả mọi người.</span>
+        </h2>
+
+        <div class="kq-audience">
+          <div class="kq-audience__panel kq-reveal">
+            <h3>Phù hợp với</h3>
+            <ul class="kq-checklist">
+              <li>Nhà đầu tư mới cần một nền tảng bài bản.</li>
+              <li>Người đã giao dịch nhưng chưa có hệ thống.</li>
+              <li>Nhà đầu tư thường bị cảm xúc chi phối.</li>
+              <li>Chủ doanh nghiệp cần hiểu biến động giá hàng hóa.</li>
+              <li>Nhà đầu tư vàng, bạc, chứng khoán hoặc ngoại hối.</li>
+            </ul>
+          </div>
+
+          <div class="kq-audience__panel kq-audience__panel--warning kq-reveal">
+            <h3>Không phù hợp với</h3>
+            <ul class="kq-checklist">
+              <li>Người tìm kiếm lợi nhuận nhanh và chắc chắn.</li>
+              <li>Người chỉ muốn sao chép lệnh mà không học.</li>
+              <li>Người sử dụng vốn vay vượt khả năng chịu đựng.</li>
+              <li>Người không sẵn sàng tuân thủ quản trị rủi ro.</li>
+              <li>Người kỳ vọng chuyên gia chịu trách nhiệm thay mình.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẢN HỒI -->
+    <section class="kq-section kq-section--soft">
+      <div class="kq-container">
+        <div class="kq-eyebrow kq-reveal">Phản hồi học viên</div>
+
+        <h2 class="kq-heading kq-reveal">
+          Giá trị quan trọng nhất là
+          <span>sự thay đổi trong tư duy.</span>
+        </h2>
+
+        <div class="kq-testimonials">
+          <article class="kq-testimonial kq-reveal">
+            <blockquote>
+              Trước đây tôi thường nhìn thị trường theo cảm xúc. Sau chương trình,
+              tôi đã biết cách lập kế hoạch trước khi giao dịch và xác định rõ
+              mình có thể mất bao nhiêu.
+            </blockquote>
+
+            <div class="kq-testimonial__author">
+              <img
+                class="kq-testimonial__avatar"
+                src="images/student-01.jpg"
+                alt="Ảnh học viên 01"
+                loading="lazy"
+              />
+              <div>
+                <strong>Học viên A</strong>
+                <span>Chủ doanh nghiệp · Khóa thực chiến</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="kq-testimonial kq-reveal">
+            <blockquote>
+              Điều giá trị nhất không phải là một mã hàng hóa cụ thể, mà là
+              cách xây dựng hệ thống để không bị cuốn theo biến động ngắn hạn.
+            </blockquote>
+
+            <div class="kq-testimonial__author">
+              <img
+                class="kq-testimonial__avatar"
+                src="images/student-02.jpg"
+                alt="Ảnh học viên 02"
+                loading="lazy"
+              />
+              <div>
+                <strong>Học viên B</strong>
+                <span>Nhà đầu tư cá nhân</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="kq-testimonial kq-reveal">
+            <blockquote>
+              Tôi bắt đầu hiểu rằng quản trị rủi ro không phải phần phụ
+              của đầu tư. Đó là nền móng quyết định tôi có thể tồn tại
+              trên thị trường hay không.
+            </blockquote>
+
+            <div class="kq-testimonial__author">
+              <img
+                class="kq-testimonial__avatar"
+                src="images/student-03.jpg"
+                alt="Ảnh học viên 03"
+                loading="lazy"
+              />
+              <div>
+                <strong>Học viên C</strong>
+                <span>Học viên chương trình coaching</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="kq-proof-note kq-reveal">
+          Kết quả của từng học viên phụ thuộc vào kiến thức, vốn, mức độ tuân thủ,
+          điều kiện thị trường và khả năng chịu rủi ro. Kết quả trong quá khứ
+          không bảo đảm hiệu quả trong tương lai.
+        </div>
+      </div>
+    </section>
+<!-- FORM ĐĂNG KÝ / THU THÔNG TIN KHÁCH HÀNG -->
+    <section class="kq-register" id="kq-dang-ky">
+      <div class="kq-container">
+        <div class="kq-register__box kq-reveal">
+          <div class="kq-register__content">
+            <div class="kq-eyebrow">Kết nối cùng chuyên gia</div>
+            <h2>Để lại thông tin để nhận lịch học và tài liệu.</h2>
+            <p>Đội ngũ của ThS. Khương Ngọc Quỳnh sẽ liên hệ để tìm hiểu nhu cầu, xác nhận lịch phù hợp và gửi tài liệu nền tảng về đầu tư hàng hóa.</p>
+            <ul class="kq-register__benefits">
+              <li>Nhận lịch chương trình học trải nghiệm.</li>
+              <li>Nhận bộ tài liệu nền tảng về hàng hóa phái sinh.</li>
+              <li>Được định hướng lộ trình phù hợp với kinh nghiệm hiện tại.</li>
+              <li>Tham gia cộng đồng cập nhật kiến thức và thị trường.</li>
+            </ul>
+            <div class="kq-register__contact">
+              <span><strong>Website:</strong> www.giacatloi.vn</span>
+              <span><strong>Facebook:</strong> fb.com/khuongngocquynhofficial</span>
+              <span><strong>Điện thoại/Zalo:</strong> 0xxx xxx xxx</span>
+            </div>
+          </div>
+
+          <div class="kq-lead-form">
+            <div class="kq-lead-form__heading">
+              <h3>Thông tin đăng ký</h3>
+              <p>Các trường có dấu * là thông tin bắt buộc.</p>
+            </div>
+            <form id="kqLeadForm" action="#" method="post">
+              <div class="kq-form-grid">
+                <div class="kq-form-field">
+                  <label for="kqFullName">Họ và tên *</label>
+                  <input id="kqFullName" name="full_name" type="text" placeholder="Nguyễn Văn A" autocomplete="name" required />
+                </div>
+                <div class="kq-form-field">
+                  <label for="kqPhone">Số điện thoại / Zalo *</label>
+                  <input id="kqPhone" name="phone" type="tel" inputmode="tel" placeholder="09xx xxx xxx" autocomplete="tel" required />
+                </div>
+                <div class="kq-form-field">
+                  <label for="kqEmail">Email</label>
+                  <input id="kqEmail" name="email" type="email" placeholder="email@example.com" autocomplete="email" />
+                </div>
+                <div class="kq-form-field">
+                  <label for="kqExperience">Kinh nghiệm đầu tư *</label>
+                  <select id="kqExperience" name="experience" required>
+                    <option value="">Chọn một phương án</option>
+                    <option value="new">Chưa từng đầu tư</option>
+                    <option value="under-1-year">Dưới 1 năm</option>
+                    <option value="1-3-years">Từ 1–3 năm</option>
+                    <option value="over-3-years">Trên 3 năm</option>
+                  </select>
+                </div>
+                <div class="kq-form-field kq-form-field--full">
+                  <label for="kqInterest">Mối quan tâm chính *</label>
+                  <select id="kqInterest" name="interest" required>
+                    <option value="">Chọn nội dung anh/chị quan tâm</option>
+                    <option value="commodity">Đầu tư hàng hóa phái sinh</option>
+                    <option value="silver-gold">Vàng và bạc</option>
+                    <option value="agriculture">Nông sản</option>
+                    <option value="risk-management">Quản trị rủi ro và quản trị vốn</option>
+                    <option value="business-hedging">Phòng vệ giá cho doanh nghiệp</option>
+                    <option value="training">Chương trình đào tạo chuyên sâu</option>
+                  </select>
+                </div>
+                <div class="kq-form-field kq-form-field--full">
+                  <label for="kqNote">Vấn đề anh/chị đang gặp phải</label>
+                  <textarea id="kqNote" name="note" placeholder="Ví dụ: Chưa có hệ thống giao dịch, thường vào lệnh theo cảm xúc, muốn tìm hiểu thị trường bạc..."></textarea>
+                </div>
+              </div>
+              <input type="hidden" id="kqUtmSource" name="utm_source" />
+              <input type="hidden" id="kqUtmMedium" name="utm_medium" />
+              <input type="hidden" id="kqUtmCampaign" name="utm_campaign" />
+              <button class="kq-btn kq-btn--primary kq-form-submit" type="submit">Gửi thông tin đăng ký</button>
+              <p class="kq-form-privacy">Thông tin chỉ được sử dụng để liên hệ, gửi lịch học và tài liệu. Chúng tôi không chia sẻ dữ liệu với bên thứ ba.</p>
+              <div class="kq-form-message" id="kqFormMessage" role="status">Thông tin đã được ghi nhận ở chế độ xem thử. Hãy kết nối form với Google Form, Google Sheets, CRM hoặc API để nhận dữ liệu thực tế.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="kq-disclaimer">
+      <div class="kq-container">
+        Nội dung trên website phục vụ mục đích giới thiệu và đào tạo,
+        không phải cam kết lợi nhuận hoặc khuyến nghị đầu tư cá nhân.
+        Giao dịch hàng hóa phái sinh có sử dụng đòn bẩy và có thể phát sinh thua lỗ.
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      const items = document.querySelectorAll(".kq-reveal");
+
+      if (!("IntersectionObserver" in window)) {
+        items.forEach((item) => item.classList.add("is-visible"));
+        return;
+      }
+
+      const observer = new IntersectionObserver(
+        (entries, currentObserver) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+
+            entry.target.classList.add("is-visible");
+            currentObserver.unobserve(entry.target);
+          });
+        },
+        {
+          threshold: 0.12,
+          rootMargin: "0px 0px -40px 0px",
+        }
+      );
+
+      items.forEach((item) => observer.observe(item));
+
+
+      const leadForm = document.getElementById("kqLeadForm");
+      const formMessage = document.getElementById("kqFormMessage");
+      const urlParams = new URLSearchParams(window.location.search);
+      const trackingFields = { kqUtmSource: "utm_source", kqUtmMedium: "utm_medium", kqUtmCampaign: "utm_campaign" };
+      Object.entries(trackingFields).forEach(([fieldId,paramName]) => {
+        const field = document.getElementById(fieldId);
+        if (field) field.value = urlParams.get(paramName) || "";
+      });
+      if (leadForm) {
+        leadForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+          const phone = document.getElementById("kqPhone").value.trim();
+          const phonePattern = /^(0|\+84)[0-9\s.-]{8,13}$/;
+          if (!phonePattern.test(phone)) {
+            alert("Vui lòng nhập số điện thoại hợp lệ.");
+            return;
+          }
+          formMessage.style.display = "block";
+          formMessage.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        });
+      }
+
+    })();
+  </script>
+
+  <!-- DỮ LIỆU CÓ CẤU TRÚC CHO SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Khương Ngọc Quỳnh",
+      "honorificPrefix": "ThS.",
+      "jobTitle": "Giám đốc Đào tạo",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Công ty CP Giao dịch Hàng hóa Gia Cát Lợi",
+        "url": "https://www.giacatloi.vn"
+      },
+      "description": "Chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro trong đầu tư hàng hóa phái sinh.",
+      "sameAs": [
+        "https://facebook.com/khuongngocquynhofficial"
+      ]
+    }
+  </script>
+</body>
+</html>
