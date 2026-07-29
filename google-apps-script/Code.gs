@@ -1,5 +1,5 @@
 const SPREADSHEET_ID = "1eRC8PaupzeT8WJCjuGhovm4pB8ZfApxgxbdavGVYkNQ";
-const SHEET_NAME = "Trang tính1";
+const SHEET_NAME = "Data";
 
 function doPost(event) {
   const lock = LockService.getScriptLock();
