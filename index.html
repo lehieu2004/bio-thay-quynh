@@ -1,139 +1,96 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ThS. Khương Ngọc Quỳnh | Chuyên gia đào tạo đầu tư hàng hóa</title>
-  <meta
-    name="description"
-    content="Hồ sơ chuyên môn của ThS. Khương Ngọc Quỳnh — chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro trong đầu tư hàng hóa phái sinh."
-  />
-
-  <!--
-    HƯỚNG DẪN NHANH
-    1. Thay ảnh trong thư mục /images theo đúng tên file.
-    2. Thay link Facebook, website, Zalo và link đăng ký.
-    3. Chỉ công bố các số liệu, danh hiệu và kết quả học viên đã được xác minh.
-    4. Có thể sao chép riêng khối <main class="kq-bio">...</main>
-       cùng toàn bộ CSS để nhúng vào website hiện có.
-  -->
-
+  <meta name="description" content="Hồ sơ chuyên môn của ThS. Khương Ngọc Quỳnh — chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro trong đầu tư hàng hóa phái sinh.">
+  <link rel="canonical" href="https://khuongngocquynhoffcial.id.vn/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="ThS. Khương Ngọc Quỳnh">
+  <meta property="og:description" content="Chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro trong đầu tư hàng hóa phái sinh.">
   <style>
     :root {
-      --kq-navy-950: #07111f;
-      --kq-navy-900: #0b172a;
-      --kq-navy-800: #10213b;
-      --kq-gold-500: #b8944f;
-      --kq-gold-300: #d7bf87;
-      --kq-ivory: #f4f1e8;
-      --kq-white: #ffffff;
-      --kq-text: #dce3ec;
-      --kq-muted: #9ea9b8;
-      --kq-line: rgba(255, 255, 255, 0.12);
-      --kq-success: #75c9a7;
-      --kq-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
-      --kq-radius-xl: 28px;
-      --kq-radius-lg: 20px;
-      --kq-radius-md: 14px;
-      --kq-container: 1180px;
+      --navy-950: #06101d;
+      --navy-900: #0a192b;
+      --navy-800: #10253e;
+      --navy-700: #173453;
+      --gold-500: #c39a52;
+      --gold-300: #e3c98f;
+      --cream: #f6f0e3;
+      --white: #fff;
+      --text: #d9e1eb;
+      --muted: #9daabd;
+      --line: rgba(255,255,255,.11);
+      --green: #8bd5b6;
+      --danger: #ffb4b4;
+      --shadow: 0 24px 70px rgba(0,0,0,.28);
+      --container: 1180px;
+      --radius-lg: 24px;
+      --radius-md: 16px;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      background: var(--kq-navy-950);
-      color: var(--kq-text);
+      overflow-x: hidden;
+      background: var(--navy-950);
+      color: var(--text);
       font-family: "Times New Roman", Times, serif;
-      line-height: 1.65;
+      line-height: 1.7;
     }
+    body.menu-open { overflow: hidden; }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button, input, select, textarea { font: inherit; }
+    button { color: inherit; }
 
-    img {
-      display: block;
-      max-width: 100%;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    button,
-    input,
-    textarea,
-    select {
-      font: inherit;
-    }
-
-    .kq-bio {
-      overflow: hidden;
-      background:
-        radial-gradient(circle at 80% 5%, rgba(184, 148, 79, 0.16), transparent 28%),
-        radial-gradient(circle at 5% 30%, rgba(62, 104, 156, 0.18), transparent 30%),
-        var(--kq-navy-950);
-    }
-
-    .kq-container {
-      width: min(calc(100% - 40px), var(--kq-container));
+    .container {
+      width: min(calc(100% - 40px), var(--container));
       margin-inline: auto;
     }
-
-    .kq-section {
-      padding: 96px 0;
+    .serif { font-family: "Times New Roman", Times, serif; }
+    .gold { color: var(--gold-300); }
+    .section { padding: 104px 0; }
+    .section-soft {
+      border-block: 1px solid var(--line);
+      background: rgba(255,255,255,.025);
     }
-
-    .kq-section--soft {
-      background: rgba(255, 255, 255, 0.025);
-      border-block: 1px solid var(--kq-line);
-    }
-
-    .kq-eyebrow {
+    .eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
-      margin-bottom: 16px;
-      color: var(--kq-gold-300);
-      font-size: 0.78rem;
+      gap: 12px;
+      margin-bottom: 18px;
+      color: var(--gold-300);
+      font-size: .72rem;
       font-weight: 800;
-      letter-spacing: 0.16em;
+      letter-spacing: .18em;
       text-transform: uppercase;
     }
-
-    .kq-eyebrow::before {
-      width: 28px;
+    .eyebrow::before {
+      width: 32px;
       height: 1px;
-      background: var(--kq-gold-500);
+      background: var(--gold-500);
       content: "";
     }
-
-    .kq-heading {
+    .section-title {
       max-width: 820px;
       margin: 0;
-      color: var(--kq-white);
-      font-size: clamp(2rem, 4vw, 4rem);
-      line-height: 1.08;
-      letter-spacing: -0.04em;
+      color: var(--white);
+      font-size: clamp(2.4rem, 5vw, 4.7rem);
+      font-weight: 400;
+      line-height: 1.02;
+      letter-spacing: -.035em;
     }
-
-    .kq-heading span {
-      color: var(--kq-gold-300);
+    .section-lead {
+      max-width: 720px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
     }
-
-    .kq-lead {
-      max-width: 780px;
-      margin: 24px 0 0;
-      color: var(--kq-muted);
-      font-size: clamp(1rem, 1.5vw, 1.18rem);
-    }
-
-    .kq-btn {
+    .btn {
       display: inline-flex;
       min-height: 52px;
       align-items: center;
@@ -142,1376 +99,719 @@
       padding: 0 22px;
       border: 1px solid transparent;
       border-radius: 999px;
+      cursor: pointer;
       font-weight: 800;
-      transition:
-        transform 180ms ease,
-        border-color 180ms ease,
-        background 180ms ease;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold-300), var(--gold-500));
+      color: var(--navy-950);
+      box-shadow: 0 12px 34px rgba(195,154,82,.22);
+    }
+    .btn-ghost {
+      border-color: var(--line);
+      background: rgba(255,255,255,.04);
+      color: var(--white);
     }
 
-    .kq-btn:hover {
-      transform: translateY(-2px);
+    .header {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 50;
+      border-bottom: 1px solid transparent;
+      background: linear-gradient(180deg, rgba(6,16,29,.88), rgba(6,16,29,.35), transparent);
+      transition: background .2s ease, border-color .2s ease, backdrop-filter .2s ease;
     }
-
-    .kq-btn--primary {
-      background: linear-gradient(135deg, var(--kq-gold-300), var(--kq-gold-500));
-      color: var(--kq-navy-950);
-      box-shadow: 0 12px 34px rgba(184, 148, 79, 0.22);
+    .header.scrolled {
+      border-color: var(--line);
+      background: rgba(6,16,29,.9);
+      backdrop-filter: blur(18px);
     }
-
-    .kq-btn--ghost {
-      border-color: var(--kq-line);
-      background: rgba(255, 255, 255, 0.035);
-      color: var(--kq-white);
-    }
-
-    .kq-hero {
-      position: relative;
-      min-height: 820px;
+    .header-inner {
+      min-height: 82px;
       display: flex;
       align-items: center;
-      padding: 80px 0;
-      isolation: isolate;
+      justify-content: space-between;
+      gap: 28px;
     }
-
-    .kq-hero::after {
-      position: absolute;
-      inset: auto -10% -40% 40%;
-      z-index: -1;
-      width: 700px;
-      height: 700px;
-      border: 1px solid rgba(184, 148, 79, 0.12);
-      border-radius: 50%;
-      content: "";
-    }
-
-    .kq-hero__grid {
-      display: grid;
-      align-items: center;
-      gap: 56px;
-      grid-template-columns: 1.08fr 0.92fr;
-    }
-
-    .kq-hero__title {
-      margin: 0;
-      color: var(--kq-white);
-      font-size: clamp(3rem, 7vw, 6.8rem);
-      line-height: 0.94;
-      letter-spacing: -0.065em;
-    }
-
-    .kq-hero__title small {
-      display: block;
-      margin-bottom: 18px;
-      color: var(--kq-gold-300);
-      font-size: 0.16em;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-    }
-
-    .kq-hero__subtitle {
-      max-width: 680px;
-      margin: 28px 0 0;
-      color: var(--kq-text);
-      font-size: clamp(1.05rem, 2vw, 1.35rem);
-    }
-
-    .kq-hero__quote {
-      max-width: 640px;
-      margin: 28px 0 0;
-      padding-left: 20px;
-      border-left: 2px solid var(--kq-gold-500);
-      color: var(--kq-muted);
-      font-style: italic;
-    }
-
-    .kq-hero__actions {
+    .brand {
       display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 34px;
+      align-items: center;
+      gap: 13px;
+      color: var(--white);
+      line-height: 1.25;
     }
-
-    .kq-hero__media {
-      position: relative;
-    }
-
-    .kq-hero__portrait {
-      min-height: 590px;
-      overflow: hidden;
-      border: 1px solid var(--kq-line);
-      border-radius: 36px;
-      background:
-        linear-gradient(180deg, rgba(7, 17, 31, 0.02), rgba(7, 17, 31, 0.68)),
-        url("anh code/KNQ2.jpg") center 20% / cover no-repeat,
-        #17243a;
-      box-shadow: var(--kq-shadow);
-    }
-
-    .kq-hero__badge {
-      position: absolute;
-      right: -20px;
-      bottom: 30px;
-      max-width: 260px;
-      padding: 20px;
-      border: 1px solid rgba(215, 191, 135, 0.28);
-      border-radius: var(--kq-radius-lg);
-      background: rgba(7, 17, 31, 0.88);
-      box-shadow: var(--kq-shadow);
-      backdrop-filter: blur(16px);
-    }
-
-    .kq-hero__badge strong {
-      display: block;
-      margin-bottom: 4px;
-      color: var(--kq-gold-300);
-      font-size: 1.1rem;
-    }
-
-    .kq-hero__badge span {
-      color: var(--kq-muted);
-      font-size: 0.92rem;
-    }
-
-    .kq-metrics {
+    .brand-mark {
       display: grid;
-      gap: 18px;
-      margin-top: 46px;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .kq-metric {
-      padding: 20px 0;
-      border-top: 1px solid var(--kq-line);
-    }
-
-    .kq-metric strong {
-      display: block;
-      color: var(--kq-white);
-      font-size: clamp(1.45rem, 3vw, 2.15rem);
-      line-height: 1;
-    }
-
-    .kq-metric span {
-      display: block;
-      margin-top: 8px;
-      color: var(--kq-muted);
-      font-size: 0.88rem;
-    }
-
-    .kq-grid-3 {
-      display: grid;
-      gap: 22px;
-      margin-top: 42px;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .kq-card {
-      height: 100%;
-      padding: 30px;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-lg);
-      background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.018));
-      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.12);
-    }
-
-    .kq-card__number {
-      display: inline-grid;
       width: 44px;
       height: 44px;
       place-items: center;
-      margin-bottom: 22px;
-      border: 1px solid rgba(215, 191, 135, 0.24);
+      border: 1px solid rgba(227,201,143,.45);
       border-radius: 50%;
-      color: var(--kq-gold-300);
-      font-weight: 900;
-    }
-
-    .kq-card h3 {
-      margin: 0;
-      color: var(--kq-white);
+      color: var(--gold-300);
       font-size: 1.25rem;
     }
-
-    .kq-card p {
-      margin: 14px 0 0;
-      color: var(--kq-muted);
+    .brand-text strong { display: block; font-size: .9rem; }
+    .brand-text span { color: var(--muted); font-size: .68rem; }
+    .nav { display: flex; align-items: center; gap: 28px; }
+    .nav a {
+      color: #cbd4df;
+      font-size: .84rem;
+      font-weight: 600;
     }
+    .nav a:hover { color: var(--gold-300); }
+    .header-cta { min-height: 44px; padding-inline: 18px; font-size: .78rem; }
+    .menu-btn {
+      display: none;
+      width: 44px;
+      height: 44px;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: rgba(255,255,255,.04);
+      cursor: pointer;
+    }
+    .menu-icon, .menu-icon::before, .menu-icon::after {
+      display: block;
+      width: 18px;
+      height: 1px;
+      background: var(--white);
+      content: "";
+      transition: transform .2s ease;
+    }
+    .menu-icon { position: relative; }
+    .menu-icon::before { position: absolute; top: -6px; }
+    .menu-icon::after { position: absolute; top: 6px; }
 
-    .kq-profile {
+    .hero {
+      position: relative;
+      min-height: 900px;
       display: grid;
-      align-items: start;
-      gap: 54px;
-      grid-template-columns: 0.82fr 1.18fr;
+      align-items: center;
+      padding: 132px 0 82px;
+      isolation: isolate;
     }
-
-    .kq-profile__photo {
-      position: sticky;
-      top: 24px;
-      min-height: 620px;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-xl);
-      background:
-        linear-gradient(180deg, transparent 55%, rgba(7, 17, 31, 0.9)),
-        url("anh code/KNQ1.jpg") center / cover no-repeat,
-        #15243a;
-      box-shadow: var(--kq-shadow);
-    }
-
-    .kq-profile__caption {
+    .hero::before {
       position: absolute;
-      right: 24px;
-      bottom: 24px;
-      left: 24px;
+      inset: 0;
+      z-index: -2;
+      background:
+        radial-gradient(circle at 78% 18%, rgba(195,154,82,.16), transparent 24%),
+        radial-gradient(circle at 15% 20%, rgba(40,94,148,.23), transparent 32%),
+        var(--navy-950);
+      content: "";
+    }
+    .hero-grid {
+      display: grid;
+      align-items: center;
+      gap: 72px;
+      grid-template-columns: 1.06fr .94fr;
+    }
+    .hero-copy { position: relative; z-index: 2; }
+    .hero-title {
+      max-width: 720px;
+      margin: 0;
+      color: var(--white);
+      font-size: clamp(4rem, 7.3vw, 7.2rem);
+      font-weight: 400;
+      line-height: .88;
+      letter-spacing: -.055em;
+    }
+    .hero-title span { display: block; color: var(--gold-300); }
+    .hero-subtitle {
+      max-width: 630px;
+      margin: 30px 0 0;
+      color: #c8d1dc;
+      font-size: clamp(1rem, 1.6vw, 1.22rem);
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: .79rem;
+    }
+    .trust-line { width: 52px; height: 1px; background: var(--line); }
+    .portrait-wrap { position: relative; padding: 18px 18px 0 0; }
+    .portrait-frame {
+      position: relative;
+      min-height: 640px;
+      overflow: hidden;
+      border: 1px solid rgba(227,201,143,.28);
+      border-radius: 180px 180px 28px 28px;
+      background:
+        linear-gradient(180deg, transparent 52%, rgba(6,16,29,.88)),
+        url("anh code/KNQ2.jpg") center 18% / cover no-repeat;
+      box-shadow: var(--shadow);
+    }
+    .portrait-frame::after {
+      position: absolute;
+      inset: 22px;
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: 160px 160px 18px 18px;
+      content: "";
+      pointer-events: none;
+    }
+    .portrait-card {
+      position: absolute;
+      right: -20px;
+      bottom: 38px;
+      max-width: 290px;
+      padding: 20px 22px;
+      border: 1px solid rgba(227,201,143,.28);
+      border-radius: 16px;
+      background: rgba(6,16,29,.88);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+    .portrait-card strong { display: block; color: var(--gold-300); }
+    .portrait-card span { display: block; margin-top: 4px; color: var(--muted); font-size: .78rem; }
+
+    .metrics {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      max-width: var(--container);
+      margin: -54px auto 0;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(10,25,43,.92);
+      box-shadow: var(--shadow);
+      grid-template-columns: repeat(3, 1fr);
+      backdrop-filter: blur(16px);
+    }
+    .metric { padding: 28px 34px; }
+    .metric + .metric { border-left: 1px solid var(--line); }
+    .metric strong {
+      display: block;
+      color: var(--white);
+      font-size: 2.4rem;
+      font-weight: 400;
+      line-height: 1;
+    }
+    .metric span { display: block; margin-top: 8px; color: var(--muted); font-size: .78rem; }
+
+    .principles {
+      display: grid;
+      gap: 18px;
+      margin-top: 46px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .principle {
+      position: relative;
+      min-height: 270px;
+      padding: 30px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(145deg, rgba(255,255,255,.055), rgba(255,255,255,.015));
+    }
+    .principle::after {
+      position: absolute;
+      right: -28px;
+      bottom: -55px;
+      color: rgba(255,255,255,.035);
+      content: attr(data-number);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 10rem;
+      line-height: 1;
+    }
+    .principle-number {
+      display: grid;
+      width: 46px;
+      height: 46px;
+      place-items: center;
+      border: 1px solid rgba(227,201,143,.28);
+      border-radius: 50%;
+      color: var(--gold-300);
+      font-weight: 800;
+    }
+    .principle h3 { margin: 40px 0 0; color: var(--white); font-size: 1.28rem; }
+    .principle p { margin: 12px 0 0; color: var(--muted); font-size: .9rem; }
+
+    .profile-grid {
+      display: grid;
+      align-items: center;
+      gap: 76px;
+      grid-template-columns: .88fr 1.12fr;
+    }
+    .profile-photo {
+      position: relative;
+      min-height: 650px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      background:
+        linear-gradient(180deg, transparent 60%, rgba(6,16,29,.92)),
+        url("anh code/KNQ1.jpg") center / cover no-repeat;
+      box-shadow: var(--shadow);
+    }
+    .profile-note {
+      position: absolute;
+      right: 22px;
+      bottom: 22px;
+      left: 22px;
       padding: 18px;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-md);
-      background: rgba(7, 17, 31, 0.78);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(6,16,29,.78);
       backdrop-filter: blur(12px);
     }
-
-    .kq-profile__caption strong {
-      display: block;
-      color: var(--kq-white);
-    }
-
-    .kq-profile__caption span {
-      color: var(--kq-muted);
-      font-size: 0.9rem;
-    }
-
-    .kq-list {
+    .profile-note strong { color: var(--white); }
+    .profile-note span { display: block; color: var(--muted); font-size: .77rem; }
+    .credentials { display: grid; gap: 0; margin-top: 36px; }
+    .credential {
       display: grid;
-      gap: 14px;
-      margin: 32px 0 0;
-      padding: 0;
-      list-style: none;
+      gap: 18px;
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+      grid-template-columns: 34px 1fr;
     }
-
-    .kq-list li {
-      position: relative;
-      padding: 17px 18px 17px 48px;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-md);
-      background: rgba(255, 255, 255, 0.028);
-      color: var(--kq-text);
-    }
-
-    .kq-list li::before {
-      position: absolute;
-      top: 17px;
-      left: 18px;
-      color: var(--kq-gold-300);
-      content: "◆";
-      font-size: 0.72rem;
-    }
-
-    .kq-timeline {
-      position: relative;
+    .credential-mark {
       display: grid;
-      gap: 28px;
-      margin-top: 48px;
-    }
-
-    .kq-timeline::before {
-      position: absolute;
-      top: 8px;
-      bottom: 8px;
-      left: 119px;
-      width: 1px;
-      background: linear-gradient(var(--kq-gold-500), transparent);
-      content: "";
-    }
-
-    .kq-timeline__item {
-      display: grid;
-      gap: 28px;
-      grid-template-columns: 92px 1fr;
-    }
-
-    .kq-timeline__year {
-      color: var(--kq-gold-300);
+      width: 28px;
+      height: 28px;
+      place-items: center;
+      border-radius: 50%;
+      background: rgba(139,213,182,.12);
+      color: var(--green);
+      font-size: .78rem;
       font-weight: 900;
     }
+    .credential p { margin: 0; color: #c5ced9; font-size: .92rem; }
 
-    .kq-timeline__content {
-      position: relative;
-      padding: 0 0 30px 44px;
-      border-bottom: 1px solid var(--kq-line);
-    }
-
-    .kq-timeline__content::before {
-      position: absolute;
-      top: 5px;
-      left: 22px;
-      width: 10px;
-      height: 10px;
-      border: 3px solid var(--kq-navy-950);
-      border-radius: 50%;
-      background: var(--kq-gold-500);
-      box-shadow: 0 0 0 1px var(--kq-gold-500);
-      content: "";
-      transform: translateX(-50%);
-    }
-
-    .kq-timeline__content h3 {
-      margin: 0;
-      color: var(--kq-white);
-      font-size: 1.25rem;
-    }
-
-    .kq-timeline__content p {
-      margin: 10px 0 0;
-      color: var(--kq-muted);
-    }
-
-    .kq-events {
+    .method-grid {
       display: grid;
-      gap: 22px;
-      margin-top: 44px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: 48px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: var(--line);
+      grid-template-columns: repeat(4, 1fr);
     }
+    .method {
+      min-height: 290px;
+      padding: 30px 26px;
+      background: var(--navy-900);
+    }
+    .method span { color: var(--gold-300); font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .method h3 { margin: 50px 0 0; color: var(--white); font-size: 1.12rem; }
+    .method p { margin: 12px 0 0; color: var(--muted); font-size: .84rem; }
 
-    .kq-event {
-      min-height: 360px;
+    .events {
+      display: grid;
+      gap: 18px;
+      margin-top: 46px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .event {
+      position: relative;
+      min-height: 430px;
       display: flex;
       align-items: end;
       overflow: hidden;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-lg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: var(--event-image) center / cover no-repeat;
+      box-shadow: 0 14px 40px rgba(0,0,0,.18);
+    }
+    .event-body { width: 100%; padding: 26px; }
+    .event-meta { color: var(--gold-300); font-size: .69rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .event h3 { margin: 10px 0 0; color: var(--white); font-size: 1.18rem; line-height: 1.35; }
+
+    .register {
+      padding: 110px 0;
       background:
-        linear-gradient(180deg, transparent 30%, rgba(7, 17, 31, 0.96)),
-        var(--event-image, linear-gradient(135deg, #142740, #0b172a));
-      background-position: center;
-      background-size: cover;
-      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+        radial-gradient(circle at 88% 10%, rgba(195,154,82,.18), transparent 27%),
+        var(--navy-950);
     }
-
-    .kq-event__body {
-      width: 100%;
-      padding: 28px;
-    }
-
-    .kq-event__meta {
-      color: var(--kq-gold-300);
-      font-size: 0.78rem;
-      font-weight: 900;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-
-    .kq-event h3 {
-      margin: 10px 0 0;
-      color: var(--kq-white);
-      font-size: 1.35rem;
-      line-height: 1.35;
-    }
-
-    .kq-method {
+    .register-box {
       display: grid;
-      gap: 18px;
-      margin-top: 44px;
-      counter-reset: method;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 56px;
+      padding: clamp(30px, 5vw, 64px);
+      border: 1px solid rgba(227,201,143,.25);
+      border-radius: 30px;
+      background: linear-gradient(140deg, var(--navy-800), var(--navy-900));
+      box-shadow: var(--shadow);
+      grid-template-columns: .9fr 1.1fr;
     }
-
-    .kq-method__item {
-      position: relative;
-      min-height: 280px;
+    .register-copy h2 {
+      margin: 0;
+      color: var(--white);
+      font-size: clamp(2.5rem, 4.3vw, 4.3rem);
+      font-weight: 400;
+      line-height: 1.02;
+    }
+    .register-copy p { margin: 20px 0 0; color: var(--muted); }
+    .contact-list { display: grid; gap: 8px; margin-top: 32px; color: #cbd4df; font-size: .83rem; }
+    .lead-form {
       padding: 26px;
-      overflow: hidden;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-lg);
-      background: rgba(255, 255, 255, 0.03);
-      counter-increment: method;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(6,16,29,.72);
+    }
+    .lead-form h3 { margin: 0 0 20px; color: var(--white); font-size: 1.35rem; }
+    .form-grid { display: grid; gap: 15px; grid-template-columns: 1fr 1fr; }
+    .field { display: grid; gap: 7px; }
+    .field-full { grid-column: 1 / -1; }
+    .field label { color: #d8e0ea; font-size: .76rem; font-weight: 700; }
+    .field input, .field select, .field textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 11px;
+      outline: 0;
+      background: rgba(255,255,255,.045);
+      color: var(--white);
+    }
+    .field input, .field select { min-height: 52px; padding: 0 14px; }
+    .field textarea { min-height: 104px; padding: 13px 14px; resize: vertical; }
+    .field input:focus, .field select:focus, .field textarea:focus {
+      border-color: var(--gold-500);
+      box-shadow: 0 0 0 3px rgba(195,154,82,.11);
+    }
+    .field input::placeholder, .field textarea::placeholder { color: #748296; }
+    .field select option { color: #111; }
+    .submit { width: 100%; margin-top: 16px; border: 0; }
+    .submit:disabled { cursor: wait; opacity: .7; transform: none; }
+    .privacy { margin: 11px 0 0; color: #748296; font-size: .68rem; text-align: center; }
+    .form-message {
+      display: none;
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid rgba(139,213,182,.32);
+      border-radius: 11px;
+      background: rgba(139,213,182,.08);
+      color: #bcebd8;
+      font-size: .78rem;
+    }
+    .form-message.is-error {
+      border-color: rgba(255,180,180,.35);
+      background: rgba(255,180,180,.08);
+      color: var(--danger);
     }
 
-    .kq-method__item::after {
-      position: absolute;
-      right: 12px;
-      bottom: -28px;
-      color: rgba(255, 255, 255, 0.035);
-      content: "0" counter(method);
-      font-size: 7rem;
-      font-weight: 900;
-      line-height: 1;
-    }
-
-    .kq-method__item span {
-      color: var(--kq-gold-300);
-      font-weight: 900;
-    }
-
-    .kq-method__item h3 {
-      margin: 18px 0 0;
-      color: var(--kq-white);
-    }
-
-    .kq-method__item p {
-      margin: 12px 0 0;
-      color: var(--kq-muted);
-    }
-
-    .kq-audience {
-      display: grid;
-      gap: 22px;
-      margin-top: 42px;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .kq-audience__panel {
-      padding: 30px;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-lg);
-      background: rgba(255, 255, 255, 0.03);
-    }
-
-    .kq-audience__panel h3 {
-      margin: 0;
-      color: var(--kq-white);
-    }
-
-    .kq-audience__panel--warning {
-      background: rgba(184, 148, 79, 0.055);
-    }
-
-    .kq-checklist {
-      display: grid;
-      gap: 12px;
-      margin: 24px 0 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .kq-checklist li {
-      position: relative;
-      padding-left: 30px;
-      color: var(--kq-muted);
-    }
-
-    .kq-checklist li::before {
-      position: absolute;
-      left: 0;
-      color: var(--kq-success);
-      content: "✓";
-      font-weight: 900;
-    }
-
-    .kq-audience__panel--warning .kq-checklist li::before {
-      color: var(--kq-gold-300);
-      content: "×";
-    }
-
-    .kq-testimonials {
-      display: grid;
-      gap: 22px;
-      margin-top: 44px;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .kq-testimonial {
-      position: relative;
-      display: flex;
-      min-height: 320px;
-      flex-direction: column;
-      padding: 30px;
-      border: 1px solid var(--kq-line);
-      border-radius: var(--kq-radius-lg);
-      background: linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
-    }
-
-    .kq-testimonial::before {
-      color: var(--kq-gold-300);
-      content: "“";
-      font-family: Georgia, serif;
-      font-size: 4.5rem;
-      line-height: 0.8;
-    }
-
-    .kq-testimonial blockquote {
-      flex: 1;
-      margin: 16px 0 24px;
-      color: var(--kq-text);
-      font-size: 1.02rem;
-    }
-
-    .kq-testimonial__author {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
-    .kq-testimonial__avatar {
-      width: 48px;
-      height: 48px;
-      flex: 0 0 48px;
-      overflow: hidden;
-      border: 1px solid var(--kq-line);
-      border-radius: 50%;
-      background: #1b2b42;
-      object-fit: cover;
-    }
-
-    .kq-testimonial__author strong {
-      display: block;
-      color: var(--kq-white);
-    }
-
-    .kq-testimonial__author span {
-      display: block;
-      color: var(--kq-muted);
-      font-size: 0.85rem;
-    }
-
-    .kq-proof-note {
-      margin-top: 24px;
-      padding: 18px 20px;
-      border-left: 3px solid var(--kq-gold-500);
-      background: rgba(184, 148, 79, 0.055);
-      color: var(--kq-muted);
-      font-size: 0.9rem;
-    }
-
-    .kq-cta {
-      padding: 86px 0;
-    }
-
-    .kq-cta__box {
-      position: relative;
-      display: grid;
-      align-items: center;
-      gap: 44px;
-      overflow: hidden;
-      padding: clamp(32px, 6vw, 70px);
-      border: 1px solid rgba(215, 191, 135, 0.25);
-      border-radius: var(--kq-radius-xl);
-      background:
-        radial-gradient(circle at 100% 0%, rgba(215, 191, 135, 0.16), transparent 34%),
-        linear-gradient(135deg, #10213b, #0b172a);
-      box-shadow: var(--kq-shadow);
-      grid-template-columns: 1fr auto;
-    }
-
-    .kq-cta__box h2 {
-      max-width: 760px;
-      margin: 0;
-      color: var(--kq-white);
-      font-size: clamp(2rem, 4vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: -0.04em;
-    }
-
-    .kq-cta__box p {
-      max-width: 720px;
-      margin: 20px 0 0;
-      color: var(--kq-muted);
-    }
-
-    .kq-qr {
-      width: 188px;
-      height: 188px;
-      display: grid;
-      place-items: center;
-      overflow: hidden;
-      border: 10px solid var(--kq-white);
-      border-radius: 18px;
-      background: var(--kq-white);
-      color: var(--kq-navy-950);
+    .footer {
+      padding: 34px 0 100px;
+      border-top: 1px solid var(--line);
+      color: #748296;
+      font-size: .76rem;
       text-align: center;
-      font-size: 0.85rem;
+    }
+    .mobile-cta {
+      position: fixed;
+      right: 12px;
+      bottom: 12px;
+      left: 12px;
+      z-index: 45;
+      display: none;
+      min-height: 54px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--gold-300), var(--gold-500));
+      color: var(--navy-950);
+      box-shadow: 0 14px 38px rgba(0,0,0,.35);
       font-weight: 800;
     }
 
-    .kq-qr img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 980px) {
+      .nav { display: none; }
+      .menu-btn { display: grid; }
+      .nav.open {
+        position: fixed;
+        inset: 82px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 28px 20px;
+        background: rgba(6,16,29,.98);
+      }
+      .nav.open a { padding: 17px 8px; border-bottom: 1px solid var(--line); font-size: 1rem; }
+      .nav.open .header-cta { margin-top: 20px; border: 0; }
+      .hero-grid, .profile-grid, .register-box { grid-template-columns: 1fr; }
+      .hero { padding-top: 150px; }
+      .hero-copy { text-align: center; }
+      .hero-title, .hero-subtitle { margin-inline: auto; }
+      .hero-actions, .hero-trust { justify-content: center; }
+      .portrait-wrap { width: min(100%, 660px); margin-inline: auto; }
+      .principles { grid-template-columns: repeat(2, 1fr); }
+      .principle:last-child { grid-column: 1 / -1; }
+      .profile-photo { min-height: 600px; }
+      .method-grid { grid-template-columns: repeat(2, 1fr); }
+      .events { grid-template-columns: 1fr 1fr; }
     }
 
-    .kq-contact {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 22px;
-      margin-top: 24px;
-      color: var(--kq-text);
-      font-size: 0.95rem;
-    }
-
-    .kq-disclaimer {
-      padding: 24px 0 36px;
-      border-top: 1px solid var(--kq-line);
-      color: #7f8a99;
-      font-size: 0.82rem;
-      text-align: center;
-    }
-
-    .kq-reveal {
-      opacity: 0;
-      transform: translateY(20px);
-      transition:
-        opacity 600ms ease,
-        transform 600ms ease;
-    }
-
-    .kq-reveal.is-visible {
-      opacity: 1;
-      transform: translateY(0);
+    @media (max-width: 680px) {
+      .container { width: min(calc(100% - 28px), var(--container)); }
+      .section { padding: 72px 0; }
+      .header-inner { min-height: 70px; }
+      .brand-mark { width: 40px; height: 40px; }
+      .brand-text span { display: none; }
+      .nav.open { inset-block-start: 70px; }
+      .hero { min-height: auto; padding: 118px 0 52px; }
+      .hero-grid { gap: 42px; }
+      .hero-title { font-size: clamp(3.45rem, 18vw, 5rem); }
+      .hero-subtitle { font-size: .94rem; }
+      .hero-actions { flex-direction: column; }
+      .hero-actions .btn { width: 100%; }
+      .portrait-wrap { padding: 0; }
+      .portrait-frame { min-height: 500px; border-radius: 110px 110px 22px 22px; }
+      .portrait-frame::after { border-radius: 96px 96px 14px 14px; }
+      .portrait-card { position: relative; right: auto; bottom: auto; max-width: none; margin-top: 12px; }
+      .metrics { width: calc(100% - 28px); margin-top: 18px; grid-template-columns: 1fr; }
+      .metric { padding: 20px 24px; text-align: center; }
+      .metric + .metric { border-top: 1px solid var(--line); border-left: 0; }
+      .metric strong { font-size: 2rem; }
+      .principles, .events, .form-grid { grid-template-columns: 1fr; }
+      .principle:last-child { grid-column: auto; }
+      .principle { min-height: 230px; }
+      .profile-grid { gap: 38px; }
+      .profile-photo { min-height: 500px; }
+      .method-grid { grid-template-columns: 1fr; }
+      .method { min-height: auto; }
+      .method h3 { margin-top: 26px; }
+      .event { min-height: 350px; }
+      .register { padding: 72px 0 90px; }
+      .register-box { gap: 36px; padding: 26px 18px; border-radius: 22px; }
+      .register-copy { text-align: center; }
+      .lead-form { padding: 18px; }
+      .field-full { grid-column: auto; }
+      .field input, .field select { min-height: 54px; font-size: 16px; }
+      .field textarea { font-size: 16px; }
+      .mobile-cta { display: flex; }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      html {
-        scroll-behavior: auto;
-      }
-
-      .kq-reveal {
-        opacity: 1;
-        transform: none;
-        transition: none;
-      }
-
-      .kq-btn {
-        transition: none;
-      }
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
     }
-
-    @media (max-width: 980px) {
-      .kq-hero {
-        min-height: auto;
-      }
-
-      .kq-hero__grid,
-      .kq-profile,
-      .kq-cta__box {
-        grid-template-columns: 1fr;
-      }
-
-      .kq-hero__media {
-        max-width: 680px;
-      }
-
-      .kq-hero__badge {
-        right: 18px;
-      }
-
-      .kq-profile__photo {
-        position: relative;
-        top: 0;
-        min-height: 580px;
-      }
-
-      .kq-grid-3,
-      .kq-testimonials {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .kq-method {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .kq-qr {
-        width: 160px;
-        height: 160px;
-      }
-    }
-
-    @media (max-width: 720px) {
-      .kq-container {
-        width: min(calc(100% - 28px), var(--kq-container));
-      }
-
-      .kq-section {
-        padding: 70px 0;
-      }
-
-      .kq-hero {
-        padding: 58px 0 72px;
-      }
-
-      .kq-hero__grid {
-        gap: 36px;
-      }
-
-      .kq-hero__title {
-        font-size: clamp(2.7rem, 16vw, 4.3rem);
-      }
-
-      .kq-hero__portrait {
-        min-height: 480px;
-      }
-
-      .kq-hero__badge {
-        position: relative;
-        right: auto;
-        bottom: auto;
-        max-width: none;
-        margin-top: 14px;
-      }
-
-      .kq-metrics,
-      .kq-grid-3,
-      .kq-events,
-      .kq-method,
-      .kq-audience,
-      .kq-testimonials {
-        grid-template-columns: 1fr;
-      }
-
-      .kq-metrics {
-        gap: 4px;
-      }
-
-      .kq-profile__photo {
-        min-height: 480px;
-      }
-
-      .kq-timeline::before {
-        left: 0;
-      }
-
-      .kq-timeline__item {
-        gap: 12px;
-        grid-template-columns: 1fr;
-      }
-
-      .kq-timeline__content {
-        padding-left: 28px;
-      }
-
-      .kq-timeline__content::before {
-        left: 0;
-      }
-
-      .kq-event {
-        min-height: 320px;
-      }
-
-      .kq-cta__box {
-        padding: 34px 24px;
-      }
-
-      .kq-qr {
-        width: 148px;
-        height: 148px;
-      }
-    }
-
-    /* FORM ĐĂNG KÝ CUỐI TRANG */
-    .kq-register { padding: 96px 0; }
-    .kq-register__box {
-      display: grid; gap: 44px; padding: clamp(30px, 5vw, 66px);
-      border: 1px solid rgba(215, 191, 135, 0.25); border-radius: var(--kq-radius-xl);
-      background: radial-gradient(circle at 100% 0%, rgba(215,191,135,.16), transparent 34%), linear-gradient(135deg,#10213b,#0b172a);
-      box-shadow: var(--kq-shadow); grid-template-columns: .9fr 1.1fr;
-    }
-    .kq-register__content { align-self: center; }
-    .kq-register__content h2 { margin:0; color:var(--kq-white); font-size:clamp(2rem,4vw,3.8rem); line-height:1.08; letter-spacing:-.04em; }
-    .kq-register__content p { margin:20px 0 0; color:var(--kq-muted); }
-    .kq-register__benefits { display:grid; gap:12px; margin:28px 0 0; padding:0; list-style:none; }
-    .kq-register__benefits li { position:relative; padding-left:30px; color:var(--kq-text); }
-    .kq-register__benefits li::before { position:absolute; left:0; color:var(--kq-success); content:'✓'; font-weight:900; }
-    .kq-register__contact { display:grid; gap:8px; margin-top:28px; padding-top:22px; border-top:1px solid var(--kq-line); color:var(--kq-muted); font-size:.9rem; }
-    .kq-lead-form { padding:26px; border:1px solid var(--kq-line); border-radius:var(--kq-radius-lg); background:rgba(7,17,31,.72); backdrop-filter:blur(14px); }
-    .kq-lead-form__heading { margin-bottom:22px; }
-    .kq-lead-form__heading h3 { margin:0; color:var(--kq-white); font-size:1.5rem; }
-    .kq-lead-form__heading p { margin:8px 0 0; color:var(--kq-muted); font-size:.9rem; }
-    .kq-form-grid { display:grid; gap:16px; grid-template-columns:repeat(2,minmax(0,1fr)); }
-    .kq-form-field { display:grid; gap:7px; }
-    .kq-form-field--full { grid-column:1/-1; }
-    .kq-form-field label { color:var(--kq-text); font-size:.86rem; font-weight:800; }
-    .kq-form-field input,.kq-form-field select,.kq-form-field textarea { width:100%; border:1px solid var(--kq-line); border-radius:12px; outline:none; background:rgba(255,255,255,.045); color:var(--kq-white); transition:border-color 180ms ease,box-shadow 180ms ease,background 180ms ease; }
-    .kq-form-field input,.kq-form-field select { min-height:52px; padding:0 14px; }
-    .kq-form-field textarea { min-height:112px; padding:13px 14px; resize:vertical; }
-    .kq-form-field input::placeholder,.kq-form-field textarea::placeholder { color:#778291; }
-    .kq-form-field input:focus,.kq-form-field select:focus,.kq-form-field textarea:focus { border-color:var(--kq-gold-500); background:rgba(255,255,255,.06); box-shadow:0 0 0 3px rgba(184,148,79,.12); }
-    .kq-form-field select option { color:#111; }
-    .kq-form-submit { width:100%; margin-top:18px; border:0; cursor:pointer; }
-    .kq-form-privacy { margin:12px 0 0; color:#7f8a99; font-size:.77rem; text-align:center; }
-    .kq-form-message { display:none; margin-top:14px; padding:13px 14px; border:1px solid rgba(117,201,167,.32); border-radius:12px; background:rgba(117,201,167,.08); color:#bcebd8; font-size:.88rem; }
-    .kq-form-message.is-error { border-color:rgba(255,125,125,.35); background:rgba(255,125,125,.08); color:#ffc5c5; }
-    .kq-form-submit:disabled { cursor:wait; opacity:.7; transform:none; }
-    @media (max-width:980px){ .kq-register__box{grid-template-columns:1fr;} }
-    @media (max-width:720px){
-      .kq-register{padding:70px 0;} .kq-register__box{gap:28px;padding:28px 18px;border-radius:22px;}
-      .kq-register__content{text-align:center;} .kq-register__content .kq-eyebrow{justify-content:center;}
-      .kq-register__benefits{text-align:left;} .kq-lead-form{padding:18px;border-radius:16px;}
-      .kq-form-grid{grid-template-columns:1fr;} .kq-form-field--full{grid-column:auto;}
-      .kq-form-field input,.kq-form-field select{min-height:54px;font-size:16px;}
-    }
-
   </style>
 </head>
-
 <body>
-  <main class="kq-bio">
-    <!-- HERO -->
-    <section class="kq-hero" aria-labelledby="kq-hero-title">
-      <div class="kq-container kq-hero__grid">
-        <div class="kq-reveal">
-          <div class="kq-eyebrow">Hồ sơ chuyên gia</div>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Về đầu trang">
+        <span class="brand-mark serif">KQ</span>
+        <span class="brand-text">
+          <strong>Khương Ngọc Quỳnh</strong>
+          <span>Đào tạo đầu tư · Quản trị rủi ro</span>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Điều hướng chính">
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#phuong-phap">Phương pháp</a>
+        <a href="#su-kien">Sự kiện</a>
+        <a class="btn btn-primary header-cta" href="#dang-ky">Nhận tư vấn</a>
+      </nav>
+      <button class="menu-btn" id="menuButton" type="button" aria-label="Mở menu" aria-expanded="false">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+  </header>
 
-          <h1 class="kq-hero__title" id="kq-hero-title">
-            <small>Thạc sĩ</small>
-            Khương<br />Ngọc Quỳnh
-          </h1>
-
-          <p class="kq-hero__subtitle">
-            Chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro
-            trong đầu tư hàng hóa phái sinh.
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">Hồ sơ chuyên gia</div>
+          <h1 class="hero-title serif">Khương Ngọc <span>Quỳnh</span></h1>
+          <p class="hero-subtitle">
+            Chuyên gia đào tạo, phân tích thị trường và quản trị rủi ro trong đầu tư hàng hóa phái sinh.
+            Đồng hành để nhà đầu tư xây dựng năng lực tự ra quyết định.
           </p>
-
-          <p class="kq-hero__quote">
-            “Mục tiêu của đào tạo không phải là khiến học viên phụ thuộc vào
-            chuyên gia, mà là giúp họ đủ năng lực tự ra quyết định.”
-          </p>
-
-          <div class="kq-hero__actions">
-            <a class="kq-btn kq-btn--primary" href="#kq-dang-ky">
-              Đăng ký học trải nghiệm
-            </a>
-
-            <a class="kq-btn kq-btn--ghost" href="#kq-ho-so">
-              Xem hồ sơ chuyên môn
-            </a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#dang-ky">Đăng ký học trải nghiệm</a>
+            <a class="btn btn-ghost" href="#gioi-thieu">Khám phá hồ sơ</a>
           </div>
-
-          <div class="kq-metrics" aria-label="Các dấu ấn chuyên môn">
-            <div class="kq-metric">
-              <strong>15+</strong>
-              <span>Năm kinh nghiệm</span>
-            </div>
-
-            <div class="kq-metric">
-              <strong>800+</strong>
-              <span>Doanh nghiệp từng tiếp cận</span>
-            </div>
-
-            <div class="kq-metric">
-              <strong>2015–nay</strong>
-              <span>Đào tạo và cố vấn</span>
-            </div>
-          </div>
+          <div class="hero-trust"><span class="trust-line"></span> ThS. Kinh tế · Phân tích đầu tư · Quản trị rủi ro</div>
         </div>
-
-        <div class="kq-hero__media kq-reveal">
-          <div
-            class="kq-hero__portrait"
-            role="img"
-            aria-label="C:\Users\leh14\Desktop\web thầy Quynh\KNQ01.jpg"
-          ></div>
-
-          <div class="kq-hero__badge">
+        <div class="portrait-wrap reveal">
+          <div class="portrait-frame" role="img" aria-label="Chân dung ThS. Khương Ngọc Quỳnh"></div>
+          <div class="portrait-card">
             <strong>Giám đốc Đào tạo</strong>
-            <span>
-              Công ty CP Giao dịch Hàng hóa Gia Cát Lợi
-            </span>
+            <span>Công ty CP Giao dịch Hàng hóa Gia Cát Lợi</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- TRIẾT LÝ -->
-    <section class="kq-section kq-section--soft">
-      <div class="kq-container">
-        <div class="kq-eyebrow kq-reveal">Triết lý đào tạo</div>
+    <div class="metrics">
+      <div class="metric"><strong class="serif">15+</strong><span>Năm kinh nghiệm trên thị trường</span></div>
+      <div class="metric"><strong class="serif">800+</strong><span>Doanh nghiệp từng tiếp cận</span></div>
+      <div class="metric"><strong class="serif">2015–nay</strong><span>Đào tạo và cố vấn chuyên sâu</span></div>
+    </div>
 
-        <h2 class="kq-heading kq-reveal">
-          Không đào tạo học viên đi tìm một
-          <span>“lệnh thắng”.</span>
-        </h2>
-
-        <p class="kq-lead kq-reveal">
-          Chương trình tập trung xây dựng một hệ thống tư duy, trong đó mỗi
-          quyết định đều dựa trên phân tích, quản trị rủi ro và kỷ luật giao dịch.
-          Thị trường không thưởng cho người phán đoán đúng một lần; thị trường
-          giữ lại những người có khả năng tồn tại đủ lâu để khai thác cơ hội.
-        </p>
-
-        <div class="kq-grid-3">
-          <article class="kq-card kq-reveal">
-            <div class="kq-card__number">01</div>
+    <section class="section" id="gioi-thieu">
+      <div class="container">
+        <div class="eyebrow reveal">Triết lý đào tạo</div>
+        <h2 class="section-title serif reveal">Không tìm một “lệnh thắng”.<br><span class="gold">Xây một hệ thống tồn tại.</span></h2>
+        <p class="section-lead reveal">Mỗi quyết định cần dựa trên phân tích, quản trị rủi ro và kỷ luật — thay vì cảm xúc hoặc kỳ vọng lợi nhuận dễ dàng.</p>
+        <div class="principles">
+          <article class="principle reveal" data-number="01">
+            <div class="principle-number">01</div>
             <h3>Bảo toàn vốn</h3>
-            <p>
-              Xác định giới hạn rủi ro trước khi nghĩ đến lợi nhuận và không
-              sử dụng quy mô vị thế vượt quá khả năng chịu đựng.
-            </p>
+            <p>Xác định giới hạn rủi ro trước khi nghĩ đến lợi nhuận và không sử dụng quy mô vị thế vượt khả năng chịu đựng.</p>
           </article>
-
-          <article class="kq-card kq-reveal">
-            <div class="kq-card__number">02</div>
+          <article class="principle reveal" data-number="02">
+            <div class="principle-number">02</div>
             <h3>Kiểm soát cảm xúc</h3>
-            <p>
-              Tách quyết định giao dịch khỏi hưng phấn, sợ hãi và áp lực phải
-              đúng trong mọi thời điểm.
-            </p>
+            <p>Tách quyết định giao dịch khỏi hưng phấn, sợ hãi và áp lực phải đúng trong mọi thời điểm.</p>
           </article>
-
-          <article class="kq-card kq-reveal">
-            <div class="kq-card__number">03</div>
+          <article class="principle reveal" data-number="03">
+            <div class="principle-number">03</div>
             <h3>Tuân thủ hệ thống</h3>
-            <p>
-              Biến kiến thức thành quy trình có thể ghi chép, đánh giá,
-              lặp lại và cải tiến theo thời gian.
-            </p>
+            <p>Biến kiến thức thành quy trình có thể ghi chép, đánh giá, lặp lại và cải tiến theo thời gian.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- HỒ SƠ -->
-    <section class="kq-section" id="kq-ho-so">
-      <div class="kq-container kq-profile">
-        <div class="kq-profile__photo kq-reveal">
-          <div class="kq-profile__caption">
+    <section class="section section-soft">
+      <div class="container profile-grid">
+        <div class="profile-photo reveal">
+          <div class="profile-note">
             <strong>ThS. Khương Ngọc Quỳnh</strong>
             <span>Phân tích đầu tư · Quản trị rủi ro · Đào tạo thực chiến</span>
           </div>
         </div>
-
         <div>
-          <div class="kq-eyebrow kq-reveal">Nền tảng chuyên môn</div>
-
-          <h2 class="kq-heading kq-reveal">
-            Kiến thức phải được chuyển hóa thành
-            <span>năng lực hành động.</span>
-          </h2>
-
-          <p class="kq-lead kq-reveal">
-            Hồ sơ chuyên môn tập trung vào ba trục: phân tích thị trường,
-            quản trị rủi ro và xây dựng năng lực tự ra quyết định cho nhà đầu tư.
-          </p>
-
-          <ul class="kq-list">
-            <li class="kq-reveal">
-              Tốt nghiệp chương trình Thạc sĩ Kinh tế, chuyên ngành
-              Phân tích đầu tư quốc tế và Quản trị rủi ro.
-            </li>
-            <li class="kq-reveal">
-              Kinh nghiệm trong phân tích thị trường tài chính, hàng hóa,
-              quản lý vốn và xây dựng chiến lược đa thị trường.
-            </li>
-            <li class="kq-reveal">
-              Từng đảm nhiệm các vị trí quản lý trong lĩnh vực đầu tư
-              và quản trị rủi ro.
-            </li>
-            <li class="kq-reveal">
-              Đào tạo, cố vấn nhà đầu tư cá nhân và doanh nghiệp có nhu cầu
-              tiếp cận công cụ quản trị biến động giá.
-            </li>
-            <li class="kq-reveal">
-              Thường xuyên tham gia hội thảo, diễn đàn kinh tế và chương trình
-              chuyên đề về hàng hóa, đầu tư và quản trị rủi ro.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- HÀNH TRÌNH -->
-    <section class="kq-section kq-section--soft">
-      <div class="kq-container">
-        <div class="kq-eyebrow kq-reveal">Hành trình nghề nghiệp</div>
-
-        <h2 class="kq-heading kq-reveal">
-          Kinh nghiệm được tích lũy qua
-          <span>nhiều chu kỳ thị trường.</span>
-        </h2>
-
-        <div class="kq-timeline">
-          <article class="kq-timeline__item kq-reveal">
-            <div class="kq-timeline__year">2010–2020</div>
-            <div class="kq-timeline__content">
-              <h3>Phân tích đầu tư và quản lý vốn</h3>
-              <p>
-                Tham gia xây dựng chiến lược đầu tư đa thị trường,
-                quản trị danh mục và kiểm soát rủi ro.
-              </p>
-            </div>
-          </article>
-
-          <article class="kq-timeline__item kq-reveal">
-            <div class="kq-timeline__year">2015–nay</div>
-            <div class="kq-timeline__content">
-              <h3>Đào tạo và cố vấn chuyên sâu</h3>
-              <p>
-                Đồng hành cùng nhà đầu tư và doanh nghiệp trong việc chuẩn hóa
-                tư duy, phương pháp phân tích và quy trình quản trị vốn.
-              </p>
-            </div>
-          </article>
-
-          <article class="kq-timeline__item kq-reveal">
-            <div class="kq-timeline__year">2017–nay</div>
-            <div class="kq-timeline__content">
-              <h3>Diễn giả tại các hội nghị và diễn đàn kinh tế</h3>
-              <p>
-                Chia sẻ về kinh tế vĩ mô, chu kỳ hàng hóa, quản trị rủi ro giá
-                và tư duy đầu tư bền vững.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SỰ KIỆN -->
-    <section class="kq-section">
-      <div class="kq-container">
-        <div class="kq-eyebrow kq-reveal">Dấu ấn diễn giả</div>
-
-        <h2 class="kq-heading kq-reveal">
-          Những chương trình và
-          <span>diễn đàn tiêu biểu.</span>
-        </h2>
-
-        <p class="kq-lead kq-reveal">
-          Nên thay các ảnh minh họa dưới đây bằng ảnh gốc có chú thích rõ
-          ngày, địa điểm, đơn vị tổ chức và vai trò tham gia.
-        </p>
-
-        <div class="kq-events">
-          <article
-            class="kq-event kq-reveal"
-            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ3.jpg');"
-          >
-            <div class="kq-event__body">
-              <div class="kq-event__meta">TP. Hồ Chí Minh · 20/09/2025</div>
-              <h3>Diễn đàn Kinh tế VCEP 2025</h3>
-            </div>
-          </article>
-
-          <article
-            class="kq-event kq-reveal"
-            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ4.jpg');"
-          >
-            <div class="kq-event__body">
-              <div class="kq-event__meta">Pleiku · 27/09/2025</div>
-              <h3>Giải pháp quản trị rủi ro giá cà phê</h3>
-            </div>
-          </article>
-
-          <article
-            class="kq-event kq-reveal"
-            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ5.jpg');"
-          >
-            <div class="kq-event__body">
-              <div class="kq-event__meta">TP. Hồ Chí Minh · 12/03/2026</div>
-              <h3>Hội thảo ACM 2026</h3>
-            </div>
-          </article>
-
-          <article
-            class="kq-event kq-reveal"
-            style="--event-image: linear-gradient(180deg, transparent 30%, rgba(7,17,31,.96)), url('anh code/KNQ6.jpg');"
-          >
-            <div class="kq-event__body">
-              <div class="kq-event__meta">TP. Hồ Chí Minh · 18/09/2025</div>
-              <h3>
-                Hội thảo "Tư duy khởi nghiệp" chào tân sinh viên Đại học Gia Định 
-              </h3>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PHƯƠNG PHÁP -->
-    <section class="kq-section kq-section--soft">
-      <div class="kq-container">
-        <div class="kq-eyebrow kq-reveal">Hệ thống đào tạo</div>
-
-        <h2 class="kq-heading kq-reveal">
-          Bốn tầng năng lực của một
-          <span>nhà đầu tư có hệ thống.</span>
-        </h2>
-
-        <div class="kq-method">
-          <article class="kq-method__item kq-reveal">
-            <span>Tầng 1</span>
-            <h3>Tư duy thị trường</h3>
-            <p>
-              Hiểu bản chất xác suất, chu kỳ, cung – cầu,
-              dòng tiền và giới hạn của dự báo.
-            </p>
-          </article>
-
-          <article class="kq-method__item kq-reveal">
-            <span>Tầng 2</span>
-            <h3>Phương pháp phân tích</h3>
-            <p>
-              Kết hợp phân tích cơ bản, kỹ thuật và bối cảnh kinh tế
-              thay vì phụ thuộc vào một tín hiệu đơn lẻ.
-            </p>
-          </article>
-
-          <article class="kq-method__item kq-reveal">
-            <span>Tầng 3</span>
-            <h3>Quản trị giao dịch</h3>
-            <p>
-              Xác định điểm vào, điểm thoát, quy mô vị thế
-              và mức thua lỗ tối đa trước khi giao dịch.
-            </p>
-          </article>
-
-          <article class="kq-method__item kq-reveal">
-            <span>Tầng 4</span>
-            <h3>Kỷ luật thực chiến</h3>
-            <p>
-              Ghi nhật ký, đánh giá sai lầm, đo lường hiệu suất
-              và cải tiến quy trình ra quyết định.
-            </p>
-          </article>
-        </div>
-
-        <div class="kq-proof-note kq-reveal">
-          <strong>Định vị đào tạo:</strong>
-          Không bán tín hiệu. Không nuôi sự phụ thuộc.
-          Không hứa hẹn lợi nhuận dễ dàng.
-        </div>
-      </div>
-    </section>
-
-    <!-- ĐỐI TƯỢNG -->
-    <section class="kq-section">
-      <div class="kq-container">
-        <div class="kq-eyebrow kq-reveal">Đối tượng phù hợp</div>
-
-        <h2 class="kq-heading kq-reveal">
-          Chương trình không dành cho
-          <span>tất cả mọi người.</span>
-        </h2>
-
-        <div class="kq-audience">
-          <div class="kq-audience__panel kq-reveal">
-            <h3>Phù hợp với</h3>
-            <ul class="kq-checklist">
-              <li>Nhà đầu tư mới cần một nền tảng bài bản.</li>
-              <li>Người đã giao dịch nhưng chưa có hệ thống.</li>
-              <li>Nhà đầu tư thường bị cảm xúc chi phối.</li>
-              <li>Chủ doanh nghiệp cần hiểu biến động giá hàng hóa.</li>
-              <li>Nhà đầu tư vàng, bạc, chứng khoán hoặc ngoại hối.</li>
-            </ul>
-          </div>
-
-          <div class="kq-audience__panel kq-audience__panel--warning kq-reveal">
-            <h3>Không phù hợp với</h3>
-            <ul class="kq-checklist">
-              <li>Người tìm kiếm lợi nhuận nhanh và chắc chắn.</li>
-              <li>Người chỉ muốn sao chép lệnh mà không học.</li>
-              <li>Người sử dụng vốn vay vượt khả năng chịu đựng.</li>
-              <li>Người không sẵn sàng tuân thủ quản trị rủi ro.</li>
-              <li>Người kỳ vọng chuyên gia chịu trách nhiệm thay mình.</li>
-            </ul>
+          <div class="eyebrow reveal">Nền tảng chuyên môn</div>
+          <h2 class="section-title serif reveal">Kiến thức phải trở thành <span class="gold">năng lực hành động.</span></h2>
+          <p class="section-lead reveal">Ba trụ cột xuyên suốt: hiểu thị trường, quản trị rủi ro và xây dựng khả năng tự ra quyết định.</p>
+          <div class="credentials">
+            <div class="credential reveal"><span class="credential-mark">✓</span><p>Thạc sĩ Kinh tế, chuyên ngành Phân tích đầu tư quốc tế và Quản trị rủi ro.</p></div>
+            <div class="credential reveal"><span class="credential-mark">✓</span><p>Kinh nghiệm phân tích thị trường tài chính, hàng hóa, quản lý vốn và chiến lược đa thị trường.</p></div>
+            <div class="credential reveal"><span class="credential-mark">✓</span><p>Đào tạo và cố vấn nhà đầu tư cá nhân, doanh nghiệp trong quản trị biến động giá.</p></div>
+            <div class="credential reveal"><span class="credential-mark">✓</span><p>Diễn giả tại các hội thảo, diễn đàn kinh tế và chương trình chuyên đề đầu tư.</p></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PHẢN HỒI -->
-    <section class="kq-section kq-section--soft">
-      <div class="kq-container">
-        <div class="kq-eyebrow kq-reveal">Phản hồi học viên</div>
-
-        <h2 class="kq-heading kq-reveal">
-          Giá trị quan trọng nhất là
-          <span>sự thay đổi trong tư duy.</span>
-        </h2>
-
-        <div class="kq-testimonials">
-          <article class="kq-testimonial kq-reveal">
-            <blockquote>
-              Trước đây tôi thường nhìn thị trường theo cảm xúc. Sau chương trình,
-              tôi đã biết cách lập kế hoạch trước khi giao dịch và xác định rõ
-              mình có thể mất bao nhiêu.
-            </blockquote>
-
-            <div class="kq-testimonial__author">
-              <img
-                class="kq-testimonial__avatar"
-                src="images/student-01.jpg"
-                alt="Ảnh học viên 01"
-                loading="lazy"
-              />
-              <div>
-                <strong>Học viên A</strong>
-                <span>Chủ doanh nghiệp · Khóa thực chiến</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="kq-testimonial kq-reveal">
-            <blockquote>
-              Điều giá trị nhất không phải là một mã hàng hóa cụ thể, mà là
-              cách xây dựng hệ thống để không bị cuốn theo biến động ngắn hạn.
-            </blockquote>
-
-            <div class="kq-testimonial__author">
-              <img
-                class="kq-testimonial__avatar"
-                src="images/student-02.jpg"
-                alt="Ảnh học viên 02"
-                loading="lazy"
-              />
-              <div>
-                <strong>Học viên B</strong>
-                <span>Nhà đầu tư cá nhân</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="kq-testimonial kq-reveal">
-            <blockquote>
-              Tôi bắt đầu hiểu rằng quản trị rủi ro không phải phần phụ
-              của đầu tư. Đó là nền móng quyết định tôi có thể tồn tại
-              trên thị trường hay không.
-            </blockquote>
-
-            <div class="kq-testimonial__author">
-              <img
-                class="kq-testimonial__avatar"
-                src="images/student-03.jpg"
-                alt="Ảnh học viên 03"
-                loading="lazy"
-              />
-              <div>
-                <strong>Học viên C</strong>
-                <span>Học viên chương trình coaching</span>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <div class="kq-proof-note kq-reveal">
-          Kết quả của từng học viên phụ thuộc vào kiến thức, vốn, mức độ tuân thủ,
-          điều kiện thị trường và khả năng chịu rủi ro. Kết quả trong quá khứ
-          không bảo đảm hiệu quả trong tương lai.
+    <section class="section" id="phuong-phap">
+      <div class="container">
+        <div class="eyebrow reveal">Hệ thống đào tạo</div>
+        <h2 class="section-title serif reveal">Bốn tầng năng lực của một <span class="gold">nhà đầu tư có hệ thống.</span></h2>
+        <div class="method-grid reveal">
+          <article class="method"><span>Tầng 01</span><h3>Tư duy thị trường</h3><p>Hiểu xác suất, chu kỳ, cung cầu, dòng tiền và giới hạn của dự báo.</p></article>
+          <article class="method"><span>Tầng 02</span><h3>Phương pháp phân tích</h3><p>Kết hợp cơ bản, kỹ thuật và bối cảnh kinh tế thành góc nhìn có cấu trúc.</p></article>
+          <article class="method"><span>Tầng 03</span><h3>Quản trị giao dịch</h3><p>Xác định điểm vào, điểm thoát, quy mô vị thế và mức lỗ tối đa.</p></article>
+          <article class="method"><span>Tầng 04</span><h3>Kỷ luật thực chiến</h3><p>Ghi nhật ký, đánh giá sai lầm và cải tiến quy trình ra quyết định.</p></article>
         </div>
       </div>
     </section>
-<!-- FORM ĐĂNG KÝ / THU THÔNG TIN KHÁCH HÀNG -->
-    <section class="kq-register" id="kq-dang-ky">
-      <div class="kq-container">
-        <div class="kq-register__box kq-reveal">
-          <div class="kq-register__content">
-            <div class="kq-eyebrow">Kết nối cùng chuyên gia</div>
-            <h2>Để lại thông tin để nhận lịch học và tài liệu.</h2>
-            <p>Đội ngũ của ThS. Khương Ngọc Quỳnh sẽ liên hệ để tìm hiểu nhu cầu, xác nhận lịch phù hợp và gửi tài liệu nền tảng về đầu tư hàng hóa.</p>
-            <ul class="kq-register__benefits">
-              <li>Nhận lịch chương trình học trải nghiệm.</li>
-              <li>Nhận bộ tài liệu nền tảng về hàng hóa phái sinh.</li>
-              <li>Được định hướng lộ trình phù hợp với kinh nghiệm hiện tại.</li>
-              <li>Tham gia cộng đồng cập nhật kiến thức và thị trường.</li>
-            </ul>
-            <div class="kq-register__contact">
+
+    <section class="section section-soft" id="su-kien">
+      <div class="container">
+        <div class="eyebrow reveal">Dấu ấn diễn giả</div>
+        <h2 class="section-title serif reveal">Chia sẻ kiến thức từ <span class="gold">thực tiễn thị trường.</span></h2>
+        <div class="events">
+          <article class="event reveal" style="--event-image:linear-gradient(180deg,transparent 35%,rgba(6,16,29,.95)),url('anh code/KNQ3.jpg')">
+            <div class="event-body"><div class="event-meta">TP. Hồ Chí Minh · 2025</div><h3>Diễn đàn Kinh tế VCEP 2025</h3></div>
+          </article>
+          <article class="event reveal" style="--event-image:linear-gradient(180deg,transparent 35%,rgba(6,16,29,.95)),url('anh code/KNQ4.JPG')">
+            <div class="event-body"><div class="event-meta">Pleiku · 27/09/2025</div><h3>Giải pháp quản trị rủi ro giá cà phê</h3></div>
+          </article>
+          <article class="event reveal" style="--event-image:linear-gradient(180deg,transparent 35%,rgba(6,16,29,.95)),url('anh code/KNQ5.jpg')">
+            <div class="event-body"><div class="event-meta">TP. Hồ Chí Minh · 2026</div><h3>Hội thảo ACM 2026</h3></div>
+          </article>
+          <article class="event reveal" style="--event-image:linear-gradient(180deg,transparent 35%,rgba(6,16,29,.95)),url('anh code/KNQ6.jpg')">
+            <div class="event-body"><div class="event-meta">Đại học Gia Định · 2025</div><h3>Hội thảo Tư duy khởi nghiệp</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="register" id="dang-ky">
+      <div class="container">
+        <div class="register-box reveal">
+          <div class="register-copy">
+            <div class="eyebrow">Kết nối cùng chuyên gia</div>
+            <h2 class="serif">Nhận lịch học và tài liệu nền tảng.</h2>
+            <p>Để lại thông tin để được định hướng lộ trình phù hợp với kinh nghiệm và mục tiêu hiện tại.</p>
+            <div class="contact-list">
               <span><strong>Website:</strong> www.giacatloi.vn</span>
-              <span><strong>Facebook:</strong> fb.com/khuongngocquynhofficial</span>
-              <span><strong>Điện thoại/Zalo:</strong> 0xxx xxx xxx</span>
+              <span><strong>Facebook:</strong> Khương Ngọc Quỳnh Official</span>
+              <span><strong>Zalo:</strong> 0xxx xxx xxx</span>
             </div>
           </div>
-
-          <div class="kq-lead-form">
-            <div class="kq-lead-form__heading">
-              <h3>Thông tin đăng ký</h3>
-              <p>Các trường có dấu * là thông tin bắt buộc.</p>
-            </div>
-            <form id="kqLeadForm" action="#" method="post">
-              <div class="kq-form-grid">
-                <div class="kq-form-field">
-                  <label for="kqFullName">Họ và tên *</label>
-                  <input id="kqFullName" name="full_name" type="text" placeholder="Nguyễn Văn A" autocomplete="name" required />
-                </div>
-                <div class="kq-form-field">
-                  <label for="kqPhone">Số điện thoại / Zalo *</label>
-                  <input id="kqPhone" name="phone" type="tel" inputmode="tel" placeholder="09xx xxx xxx" autocomplete="tel" required />
-                </div>
-                <div class="kq-form-field">
-                  <label for="kqEmail">Email</label>
-                  <input id="kqEmail" name="email" type="email" placeholder="email@example.com" autocomplete="email" />
-                </div>
-                <div class="kq-form-field">
-                  <label for="kqExperience">Kinh nghiệm đầu tư *</label>
-                  <select id="kqExperience" name="experience" required>
-                    <option value="">Chọn một phương án</option>
-                    <option value="Chưa từng đầu tư">Chưa từng đầu tư</option>
-                    <option value="Dưới 1 năm">Dưới 1 năm</option>
-                    <option value="Từ 1–3 năm">Từ 1–3 năm</option>
-                    <option value="Trên 3 năm">Trên 3 năm</option>
-                  </select>
-                </div>
-                <div class="kq-form-field kq-form-field--full">
-                  <label for="kqInterest">Mối quan tâm chính *</label>
-                  <select id="kqInterest" name="interest" required>
-                    <option value="">Chọn nội dung anh/chị quan tâm</option>
-                    <option value="Đầu tư hàng hóa phái sinh">Đầu tư hàng hóa phái sinh</option>
-                    <option value="Vàng và bạc">Vàng và bạc</option>
-                    <option value="Nông sản">Nông sản</option>
-                    <option value="Quản trị rủi ro và quản trị vốn">Quản trị rủi ro và quản trị vốn</option>
-                    <option value="Phòng vệ giá cho doanh nghiệp">Phòng vệ giá cho doanh nghiệp</option>
-                    <option value="Chương trình đào tạo chuyên sâu">Chương trình đào tạo chuyên sâu</option>
-                  </select>
-                </div>
-                <div class="kq-form-field kq-form-field--full">
-                  <label for="kqNote">Vấn đề anh/chị đang gặp phải</label>
-                  <textarea id="kqNote" name="note" placeholder="Ví dụ: Chưa có hệ thống giao dịch, thường vào lệnh theo cảm xúc, muốn tìm hiểu thị trường bạc..."></textarea>
-                </div>
+          <form class="lead-form" id="kqLeadForm" method="post">
+            <h3>Thông tin đăng ký</h3>
+            <div class="form-grid">
+              <div class="field"><label for="name">Họ và tên *</label><input id="name" name="full_name" type="text" autocomplete="name" required placeholder="Nguyễn Văn A"></div>
+              <div class="field"><label for="phone">Điện thoại / Zalo *</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="09xx xxx xxx"></div>
+              <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="email@example.com"></div>
+              <div class="field">
+                <label for="experience">Kinh nghiệm đầu tư *</label>
+                <select id="experience" name="experience" required>
+                  <option value="">Chọn một phương án</option>
+                  <option value="Chưa từng đầu tư">Chưa từng đầu tư</option>
+                  <option value="Dưới 1 năm">Dưới 1 năm</option>
+                  <option value="Từ 1–3 năm">Từ 1–3 năm</option>
+                  <option value="Trên 3 năm">Trên 3 năm</option>
+                </select>
               </div>
-              <input type="hidden" id="kqUtmSource" name="utm_source" />
-              <input type="hidden" id="kqUtmMedium" name="utm_medium" />
-              <input type="hidden" id="kqUtmCampaign" name="utm_campaign" />
-              <button class="kq-btn kq-btn--primary kq-form-submit" type="submit">Gửi thông tin đăng ký</button>
-              <p class="kq-form-privacy">Thông tin chỉ được sử dụng để liên hệ, gửi lịch học và tài liệu. Chúng tôi không chia sẻ dữ liệu với bên thứ ba.</p>
-              <div class="kq-form-message" id="kqFormMessage" role="status" aria-live="polite"></div>
-            </form>
-          </div>
+              <div class="field field-full">
+                <label for="interest">Mối quan tâm chính *</label>
+                <select id="interest" name="interest" required>
+                  <option value="">Chọn nội dung quan tâm</option>
+                  <option value="Đầu tư hàng hóa phái sinh">Đầu tư hàng hóa phái sinh</option>
+                  <option value="Vàng và bạc">Vàng và bạc</option>
+                  <option value="Nông sản">Nông sản</option>
+                  <option value="Quản trị rủi ro và quản trị vốn">Quản trị rủi ro và quản trị vốn</option>
+                  <option value="Phòng vệ giá cho doanh nghiệp">Phòng vệ giá cho doanh nghiệp</option>
+                  <option value="Chương trình đào tạo chuyên sâu">Chương trình đào tạo chuyên sâu</option>
+                </select>
+              </div>
+              <div class="field field-full">
+                <label for="note">Vấn đề anh/chị đang gặp phải</label>
+                <textarea id="note" name="note" placeholder="Ví dụ: Chưa có hệ thống giao dịch, thường vào lệnh theo cảm xúc..."></textarea>
+              </div>
+            </div>
+            <input type="hidden" id="utmSource" name="utm_source">
+            <input type="hidden" id="utmMedium" name="utm_medium">
+            <input type="hidden" id="utmCampaign" name="utm_campaign">
+            <button class="btn btn-primary submit" type="submit">Nhận tư vấn miễn phí</button>
+            <p class="privacy">Thông tin chỉ được sử dụng để liên hệ, gửi lịch học và tài liệu. Chúng tôi không chia sẻ dữ liệu với bên thứ ba.</p>
+            <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+          </form>
         </div>
       </div>
     </section>
-
-    <footer class="kq-disclaimer">
-      <div class="kq-container">
-        Nội dung trên website phục vụ mục đích giới thiệu và đào tạo,
-        không phải cam kết lợi nhuận hoặc khuyến nghị đầu tư cá nhân.
-        Giao dịch hàng hóa phái sinh có sử dụng đòn bẩy và có thể phát sinh thua lỗ.
-      </div>
-    </footer>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      Nội dung phục vụ mục đích giới thiệu và đào tạo, không phải cam kết lợi nhuận hoặc khuyến nghị đầu tư cá nhân.
+    </div>
+  </footer>
+
+  <a class="mobile-cta" href="#dang-ky">Đăng ký nhận tư vấn</a>
 
   <script>
     (() => {
-      const KQ_GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxk1qlIRFeyS3R-vTysfJfNF5pyASnOC02z523ed2I0b_GtypxRoo77z2biqw0ck3nM/exec";
-      const items = document.querySelectorAll(".kq-reveal");
-
-      if (!("IntersectionObserver" in window)) {
-        items.forEach((item) => item.classList.add("is-visible"));
-      } else {
-        const observer = new IntersectionObserver(
-          (entries, currentObserver) => {
-            entries.forEach((entry) => {
-              if (!entry.isIntersecting) return;
-
-              entry.target.classList.add("is-visible");
-              currentObserver.unobserve(entry.target);
-            });
-          },
-          {
-            threshold: 0.12,
-            rootMargin: "0px 0px -40px 0px",
-          }
-        );
-
-        items.forEach((item) => observer.observe(item));
-      }
-
+      const header = document.getElementById("header");
+      const menuButton = document.getElementById("menuButton");
+      const nav = document.getElementById("nav");
+      const revealItems = document.querySelectorAll(".reveal");
       const leadForm = document.getElementById("kqLeadForm");
-      const formMessage = document.getElementById("kqFormMessage");
-      const submitButton = leadForm?.querySelector('button[type="submit"]');
+      const formMessage = document.getElementById("formMessage");
+      const submitButton = leadForm.querySelector('button[type="submit"]');
+      const scriptUrl = "https://script.google.com/macros/s/AKfycbxk1qlIRFeyS3R-vTysfJfNF5pyASnOC02z523ed2I0b_GtypxRoo77z2biqw0ck3nM/exec";
       const urlParams = new URLSearchParams(window.location.search);
-      const trackingFields = { kqUtmSource: "utm_source", kqUtmMedium: "utm_medium", kqUtmCampaign: "utm_campaign" };
+      const trackingFields = { utmSource: "utm_source", utmMedium: "utm_medium", utmCampaign: "utm_campaign" };
 
       const fillTrackingFields = () => {
-        Object.entries(trackingFields).forEach(([fieldId,paramName]) => {
-          const field = document.getElementById(fieldId);
-          if (field) field.value = urlParams.get(paramName) || "";
+        Object.entries(trackingFields).forEach(([fieldId, paramName]) => {
+          document.getElementById(fieldId).value = urlParams.get(paramName) || "";
         });
       };
 
@@ -1522,55 +822,74 @@
         formMessage.scrollIntoView({ behavior: "smooth", block: "nearest" });
       };
 
-      fillTrackingFields();
+      const updateHeader = () => header.classList.toggle("scrolled", window.scrollY > 24);
+      updateHeader();
+      window.addEventListener("scroll", updateHeader, { passive: true });
 
-      if (leadForm) {
-        leadForm.addEventListener("submit", async (event) => {
-          event.preventDefault();
-          const phone = document.getElementById("kqPhone").value.trim();
-          const phonePattern = /^(0|\+84)[0-9\s.-]{8,13}$/;
+      menuButton.addEventListener("click", () => {
+        const isOpen = nav.classList.toggle("open");
+        document.body.classList.toggle("menu-open", isOpen);
+        menuButton.setAttribute("aria-expanded", String(isOpen));
+      });
 
-          if (!phonePattern.test(phone)) {
-            alert("Vui lòng nhập số điện thoại hợp lệ.");
-            return;
-          }
-
-          if (KQ_GOOGLE_SCRIPT_URL.startsWith("PASTE_")) {
-            showFormMessage("Form chưa được cấu hình endpoint Google Sheets. Vui lòng liên hệ quản trị viên.", true);
-            return;
-          }
-
-          const payload = Object.fromEntries(new FormData(leadForm).entries());
-          const defaultButtonText = submitButton.textContent;
-
-          submitButton.disabled = true;
-          submitButton.textContent = "Đang gửi thông tin...";
-          formMessage.style.display = "none";
-
-          try {
-            await fetch(KQ_GOOGLE_SCRIPT_URL, {
-              method: "POST",
-              mode: "no-cors",
-              headers: { "Content-Type": "text/plain;charset=utf-8" },
-              body: JSON.stringify(payload),
-            });
-
-            leadForm.reset();
-            fillTrackingFields();
-            showFormMessage("Đăng ký thành công. Đội ngũ sẽ liên hệ với anh/chị trong thời gian sớm nhất.");
-          } catch (error) {
-            showFormMessage("Không thể gửi thông tin lúc này. Vui lòng thử lại hoặc liên hệ qua điện thoại/Zalo.", true);
-          } finally {
-            submitButton.disabled = false;
-            submitButton.textContent = defaultButtonText;
-          }
+      nav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("open");
+          document.body.classList.remove("menu-open");
+          menuButton.setAttribute("aria-expanded", "false");
         });
-      }
+      });
 
+      fillTrackingFields();
+      leadForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const phone = leadForm.elements.phone.value.trim();
+        const phonePattern = /^(0|\+84)[0-9\s.-]{8,13}$/;
+
+        if (!phonePattern.test(phone)) {
+          showFormMessage("Vui lòng nhập số điện thoại hợp lệ.", true);
+          return;
+        }
+
+        const defaultButtonText = submitButton.textContent;
+        submitButton.disabled = true;
+        submitButton.textContent = "Đang gửi thông tin...";
+        formMessage.style.display = "none";
+
+        try {
+          const payload = Object.fromEntries(new FormData(leadForm).entries());
+          await fetch(scriptUrl, {
+            method: "POST",
+            mode: "no-cors",
+            headers: { "Content-Type": "text/plain;charset=utf-8" },
+            body: JSON.stringify(payload),
+          });
+
+          leadForm.reset();
+          fillTrackingFields();
+          showFormMessage("Đăng ký thành công. Đội ngũ sẽ liên hệ với anh/chị trong thời gian sớm nhất.");
+        } catch (error) {
+          showFormMessage("Không thể gửi thông tin lúc này. Vui lòng thử lại hoặc liên hệ qua điện thoại/Zalo.", true);
+        } finally {
+          submitButton.disabled = false;
+          submitButton.textContent = defaultButtonText;
+        }
+      });
+
+      if (!("IntersectionObserver" in window)) {
+        revealItems.forEach((item) => item.classList.add("visible"));
+      } else {
+        const observer = new IntersectionObserver((entries, currentObserver) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("visible");
+            currentObserver.unobserve(entry.target);
+          });
+        }, { threshold: .1, rootMargin: "0px 0px -30px" });
+        revealItems.forEach((item) => observer.observe(item));
+      }
     })();
   </script>
-
-  <!-- DỮ LIỆU CÓ CẤU TRÚC CHO SEO -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
